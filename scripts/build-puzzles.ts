@@ -7,6 +7,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { clean, stats, check, downsample, normalize, moveHint, yearsHint, obfuscate, type Expect, type RawPoint } from './transform.ts';
 
+// yahoo-finance2 v4: default export is a class (v2's singleton is gone).
+const { default: YahooFinance } = await import('yahoo-finance2');
+const yf = new YahooFinance();
+
 interface Item {
   key: string; answer: string; title: string; asset: string; aliases: string[]; class: string; symbol: string;
   start: string; end: string; expect: Expect; hintSector: string; hintClue: string; story: string;
@@ -19,7 +23,6 @@ const catalog = JSON.parse(readFileSync('data/puzzles.catalog.json', 'utf8')) as
 const swap = process.argv.includes('--swap');
 
 async function fetchDaily(symbol: string, start: string, end: string): Promise<RawPoint[]> {
-  const yf = (await import('yahoo-finance2')).default;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let res: any, lastErr: unknown;
   for (let attempt = 1; attempt <= 4; attempt++) {           // retry with backoff: 2s, 4s, 8s
