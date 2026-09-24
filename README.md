@@ -2,6 +2,8 @@
 
 A free daily game: name the asset behind a famous market chart in 5 guesses.
 
+Live URL: https://ap0l1on.github.io/wick/
+
 ## How the charts are made
 
 Every chart is a real market moment, built from public daily closing prices. Only the chart shape is stored (first point = 100) — never real prices. After each game, an **Open on TradingView ↗** link shows the real chart.
