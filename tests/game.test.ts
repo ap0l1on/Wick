@@ -75,17 +75,17 @@ describe('streak across skipped day (M2.6)', () => {
 
 describe('share text (M2.7 exact)', () => {
   it('win format', () => {
-    expect(shareText(12, ['wrong', 'near', 'right'], true, 'https://example.com/wick')).toBe(
-      'Wick #12 3/5\n🟥🟨🟩\nhttps://example.com/wick',
+    expect(shareText(12, ['wrong', 'near', 'right'], true, 'https://example.com/Wick')).toBe(
+      'Wick #12 3/5\n🟥🟨🟩\nhttps://example.com/Wick',
     );
   });
   it('loss shows X/5', () => {
-    expect(shareText(12, ['wrong', 'wrong', 'wrong', 'wrong', 'wrong'], false, 'https://example.com/wick')).toBe(
-      'Wick #12 X/5\n🟥🟥🟥🟥🟥\nhttps://example.com/wick',
+    expect(shareText(12, ['wrong', 'wrong', 'wrong', 'wrong', 'wrong'], false, 'https://example.com/Wick')).toBe(
+      'Wick #12 X/5\n🟥🟥🟥🟥🟥\nhttps://example.com/Wick',
     );
   });
   it('never contains answer', () => {
-    const t = shareText(1, ['right'], true, 'https://example.com/wick');
+    const t = shareText(1, ['right'], true, 'https://example.com/Wick');
     expect(t).not.toContain('GameStop');
   });
   it('site is never hard-coded (host + path, no scheme)', () => {

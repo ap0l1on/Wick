@@ -7,11 +7,11 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   webServer: {
     command: 'npm run preview -- --port 4173 --strictPort',
-    url: 'http://127.0.0.1:4173/wick/',
+    url: 'http://127.0.0.1:4173/Wick/',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
-  use: { baseURL: 'http://127.0.0.1:4173/wick/', trace: 'on-first-retry' },
+  use: { baseURL: 'http://127.0.0.1:4173/Wick/', trace: 'on-first-retry' },
   projects: [
     { name: 'mobile', use: { ...devices['Pixel 7'], viewport: { width: 360, height: 800 } } },
     { name: 'desktop', use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 } } },

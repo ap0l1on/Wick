@@ -2,7 +2,7 @@
 
 A free daily game: name the asset behind a famous market chart in 5 guesses.
 
-Live URL: https://ap0l1on.github.io/wick/
+Live URL: https://ap0l1on.github.io/Wick/
 
 ## How the charts are made
 

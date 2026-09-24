@@ -11,6 +11,6 @@ export function siteDomain(): string {
   try {
     return window.location.host + window.location.pathname;
   } catch {
-    return 'example.com/wick/';
+    return 'example.com/Wick/';
   }
 }

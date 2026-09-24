@@ -17,11 +17,11 @@ function cfBeacon(): Plugin {
   };
 }
 
-// GitHub Pages: served from /wick/ until a custom domain is set,
+// GitHub Pages: served from /Wick/ until a custom domain is set,
 // then switch base to '/'.
 export default defineConfig({
   plugins: [preact(), cfBeacon()],
-  base: '/wick/',
+  base: '/Wick/',
   build: {
     target: 'es2020',
     cssCodeSplit: true,
