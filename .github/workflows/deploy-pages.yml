@@ -1,0 +1,30 @@
+# Builds the site and publishes it to GitHub Pages.
+# Runs ONLY after a successful `Build puzzles` run (or manual dispatch), so the
+# site always ships with freshly verified puzzle data.
+name: Deploy to GitHub Pages
+on:
+  workflow_run:
+    workflows: ['Build puzzles']
+    types: [completed]
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with: { ref: main }
+      - uses: actions/setup-node@1a4442c3299be6e2c9def7d42c53912b09a7d0d7 # v4.1.0
+        with: { node-version: 22 }
+      - run: npm install --no-audit --no-fund
+      - run: npm run build            # the web app's Vite build -> dist/ (copies public/puzzles.json)
+        env:
+          CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN }}
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab4793835732b47b319 # v5.0.0
+      - uses: actions/upload-pages-artifact@7b4847ccbffca28ff9e2cbb22fd02fb0bd39a12 # v3.0.1
+        with: { path: dist }
+      - id: d
+        uses: actions/deploy-pages@395d4500116408f943714db0c2056a24265a7947 # v4.0.5

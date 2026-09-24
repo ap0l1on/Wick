@@ -1,0 +1,23 @@
+# CI on every PR (and push to main): typecheck, tests, production build.
+# Data fetching never runs here — only the pure-function tests and the web build.
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Pinned to SHAs (security gate M8). Auditor: verify with `git ls-remote` before launch; Dependabot keeps them fresh.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@1a4442c3299be6e2c9def7d42c53912b09a7d0d7 # v4.1.0
+        with: { node-version: 22 }
+      - run: npm install --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm run test:data
+      - run: npm run test
+      - run: npm run build
