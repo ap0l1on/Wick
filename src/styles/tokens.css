@@ -1,39 +1,41 @@
-/* Wick design tokens — M6. Dark by default, light via [data-theme="light"]. */
+/* Wick design tokens — "night trading terminal". Dark only by design. */
 :root {
-  --bg: #0b0d10;
-  --surface: #14171c;
-  --surface-2: #1d2128;
-  --control: #5f6875;
-  --text: #e8eaed;
-  --muted: #9aa3ad;
-  --line: #7cffb2;
-  --accent: #7cffb2;
-  --accent-text: #0b0d10;
-  --right: #22c55e;
-  --right-text: #0b0d10;
-  --near: #eab308;
-  --near-text: #0b0d10;
-  --wrong: #f05252;
-  --wrong-text: #0b0d10;
+  --bg: #0d0f0c;
+  --panel: #151a14;
+  --grid: #1f261d;
+  --surface: #151a14;
+  --surface-2: #1f261d;
+  --control: #3a4436;
+  --text: #edefe6;
+  --muted: #8c9585;
+  --line: #26d07c;
+  --accent: #ffb020;
+  --accent-text: #141004;
+  --bull: #26d07c;
+  --bear: #ff4d5e;
+  --star: #ffd34d;
+  --up: #26d07c;
+  --down: #ff4d5e;
+  --right: #26d07c;
+  --right-text: #0d0f0c;
+  --near: #ffb020;
+  --near-text: #141004;
+  --wrong: #ff4d5e;
+  --wrong-text: #fff6f6;
   --radius: 16px;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-body: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   color-scheme: dark;
 }
 
-[data-theme="light"] {
-  --bg: #f7f8fa;
-  --surface: #ffffff;
-  --surface-2: #eef0f3;
-  --control: #8a939e;
-  --text: #0e1116;
-  --muted: #5a636e;
-  --line: #0f9d58;
-  --accent: #0b7a43;
-  --accent-text: #ffffff;
-  --right: #15803d;
-  --right-text: #ffffff;
-  --near: #a16207;
-  --near-text: #ffffff;
-  --wrong: #c81e1e;
-  --wrong-text: #ffffff;
-  color-scheme: light;
+/* Colour-blind mode: bull/bear become blue/orange. */
+[data-cb="1"] {
+  --bull: #4da3ff;
+  --bear: #ff8a1e;
+  --up: #4da3ff;
+  --down: #ff8a1e;
+  --right: #4da3ff;
+  --right-text: #0d0f0c;
+  --line: #4da3ff;
 }
