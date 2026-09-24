@@ -24,6 +24,7 @@ export function Home(p: {
 
   return (
     <div class="home">
+      <h1 class="sr-only">Wick — Name the chart</h1>
       <div class="home-mark">
         <Wordmark glow height={44} />
         <p class="tagline">Name the chart.</p>

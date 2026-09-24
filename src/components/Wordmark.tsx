@@ -19,9 +19,9 @@ export function Wordmark({ glow = false, height = 30 }: { glow?: boolean; height
         stroke-linecap="round"
         stroke-linejoin="round"
       />
-      {/* I = candlestick */}
-      <line x1="38" y1="2" x2="38" y2="28" stroke="var(--amber)" stroke-width="2.5" stroke-linecap="round" />
-      <rect x="32.5" y="9" width="11" height="13" rx="2" fill="var(--amber)" />
+      {/* I = candlestick (inline style: var() is invalid in presentation attributes) */}
+      <line x1="38" y1="2" x2="38" y2="28" stroke-width="2.5" stroke-linecap="round" style={{ stroke: 'var(--amber)' }} />
+      <rect x="32.5" y="9" width="11" height="13" rx="2" style={{ fill: 'var(--amber)' }} />
       {/* C */}
       <path
         d="M60 10 A8.5 8.5 0 1 0 60 20"

@@ -1,4 +1,4 @@
-# CI on every PR (and push to main): typecheck, tests, production build.
+# CI on every PR (and push to main): typecheck, tests, contrast, production build.
 # Data fetching never runs here — only the pure-function tests and the web build.
 name: CI
 on:
@@ -20,4 +20,5 @@ jobs:
       - run: npm run typecheck
       - run: npm run test:data
       - run: npm run test
+      - run: npm run check:contrast
       - run: npm run build

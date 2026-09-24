@@ -44,7 +44,7 @@ export function GuessBox({ list, disabled, onSubmit }: Props) {
         aria-controls={listId}
         aria-autocomplete="list"
         aria-activedescendant={open && options.length ? `wick-opt-${active}` : undefined}
-        placeholder="Type a company, coin or index…"
+        placeholder="Company, coin or index…"
         autocomplete="off"
         autocapitalize="off"
         spellcheck={false}

@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "test:data": "tsx --test tests/transform.test.ts",
     "test": "vitest run",
+    "check:contrast": "tsx scripts/check-contrast.ts",
     "test:e2e": "playwright test",
     "lint": "eslint src scripts tests e2e",
     "build:puzzles": "tsx scripts/build-puzzles.ts --swap",
