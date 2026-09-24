@@ -592,5 +592,347 @@
   "country": "--",
   "sector": "Crypto",
   "cap": 3
+ },
+ "AIG": {
+  "ticker": "AIG",
+  "country": "US",
+  "sector": "Insurance",
+  "cap": 3
+ },
+ "Adani Enterprises": {
+  "ticker": "ADANIENT",
+  "country": "IN",
+  "sector": "Industrials",
+  "cap": 3
+ },
+ "Allbirds": {
+  "ticker": "BIRD",
+  "country": "US",
+  "sector": "Retail",
+  "cap": 1
+ },
+ "Axie Infinity (AXS)": {
+  "ticker": "AXS",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "Beyond Meat": {
+  "ticker": "BYND",
+  "country": "US",
+  "sector": "Food & Bev",
+  "cap": 1
+ },
+ "BlackBerry": {
+  "ticker": "BB",
+  "country": "CA",
+  "sector": "Technology",
+  "cap": 2
+ },
+ "Carvana": {
+  "ticker": "CVNA",
+  "country": "US",
+  "sector": "Retail",
+  "cap": 2
+ },
+ "Celsius (CEL)": {
+  "ticker": "CEL",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "Chiliz (CHZ)": {
+  "ticker": "CHZ",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "Circle": {
+  "ticker": "CRCL",
+  "country": "US",
+  "sector": "Crypto",
+  "cap": 3
+ },
+ "Citigroup": {
+  "ticker": "C",
+  "country": "US",
+  "sector": "Banks",
+  "cap": 4
+ },
+ "Cocoa": {
+  "ticker": "CC",
+  "country": "--",
+  "sector": "Commodity",
+  "cap": 1
+ },
+ "CoreWeave": {
+  "ticker": "CRWV",
+  "country": "US",
+  "sector": "Technology",
+  "cap": 3
+ },
+ "Decentraland (MANA)": {
+  "ticker": "MANA",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 2
+ },
+ "Didi": {
+  "ticker": "DIDIY",
+  "country": "CN",
+  "sector": "Internet",
+  "cap": 1
+ },
+ "European natural gas (TTF)": {
+  "ticker": "TTF",
+  "country": "--",
+  "sector": "Commodity",
+  "cap": 2
+ },
+ "FTX Token (FTT)": {
+  "ticker": "FTT",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "Facebook": {
+  "ticker": "META",
+  "country": "US",
+  "sector": "Social Media",
+  "cap": 5
+ },
+ "Fannie Mae": {
+  "ticker": "FNMA",
+  "country": "US",
+  "sector": "Finance",
+  "cap": 1
+ },
+ "GoPro": {
+  "ticker": "GPRO",
+  "country": "US",
+  "sector": "Consumer",
+  "cap": 1
+ },
+ "Internet Computer (ICP)": {
+  "ticker": "ICP",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 2
+ },
+ "Kodak": {
+  "ticker": "KODK",
+  "country": "US",
+  "sector": "Consumer",
+  "cap": 1
+ },
+ "Lucid": {
+  "ticker": "LCID",
+  "country": "US",
+  "sector": "EVs",
+  "cap": 2
+ },
+ "Luckin Coffee": {
+  "ticker": "LKNCY",
+  "country": "CN",
+  "sector": "Food & Bev",
+  "cap": 1
+ },
+ "Lyft": {
+  "ticker": "LYFT",
+  "country": "US",
+  "sector": "Travel",
+  "cap": 2
+ },
+ "Moderna": {
+  "ticker": "MRNA",
+  "country": "US",
+  "sector": "Biotech",
+  "cap": 3
+ },
+ "Nasdaq Composite": {
+  "ticker": "IXIC",
+  "country": "US",
+  "sector": "Index",
+  "cap": 5
+ },
+ "Novavax": {
+  "ticker": "NVAX",
+  "country": "US",
+  "sector": "Biotech",
+  "cap": 1
+ },
+ "Oatly": {
+  "ticker": "OTLY",
+  "country": "US",
+  "sector": "Food & Bev",
+  "cap": 1
+ },
+ "Official Trump (TRUMP)": {
+  "ticker": "TRUMP",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "Opendoor": {
+  "ticker": "OPEN",
+  "country": "US",
+  "sector": "Real Estate",
+  "cap": 1
+ },
+ "Orange juice": {
+  "ticker": "OJ",
+  "country": "--",
+  "sector": "Commodity",
+  "cap": 1
+ },
+ "Peloton": {
+  "ticker": "PTON",
+  "country": "US",
+  "sector": "Consumer",
+  "cap": 1
+ },
+ "Plug Power": {
+  "ticker": "PLUG",
+  "country": "US",
+  "sector": "Energy",
+  "cap": 1
+ },
+ "Qualcomm": {
+  "ticker": "QCOM",
+  "country": "US",
+  "sector": "Semiconductors",
+  "cap": 4
+ },
+ "Rivian": {
+  "ticker": "RIVN",
+  "country": "US",
+  "sector": "EVs",
+  "cap": 2
+ },
+ "Robinhood": {
+  "ticker": "HOOD",
+  "country": "US",
+  "sector": "Fintech",
+  "cap": 3
+ },
+ "SVXY": {
+  "ticker": "SVXY",
+  "country": "US",
+  "sector": "ETF",
+  "cap": 1
+ },
+ "Sea Limited": {
+  "ticker": "SE",
+  "country": "SG",
+  "sector": "E-commerce",
+  "cap": 3
+ },
+ "Shanghai Composite": {
+  "ticker": "000001.SS",
+  "country": "CN",
+  "sector": "Index",
+  "cap": 3
+ },
+ "Shiba Inu (SHIB)": {
+  "ticker": "SHIB",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 3
+ },
+ "Snowflake": {
+  "ticker": "SNOW",
+  "country": "US",
+  "sector": "Software",
+  "cap": 3
+ },
+ "Solana (SOL)": {
+  "ticker": "SOL",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 4
+ },
+ "Super Micro Computer": {
+  "ticker": "SMCI",
+  "country": "US",
+  "sector": "Technology",
+  "cap": 3
+ },
+ "TAL Education": {
+  "ticker": "TAL",
+  "country": "CN",
+  "sector": "Education",
+  "cap": 1
+ },
+ "TerraUSD (UST)": {
+  "ticker": "UST",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
+ },
+ "The Sandbox (SAND)": {
+  "ticker": "SAND",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 2
+ },
+ "Trump Media & Technology (DJT)": {
+  "ticker": "DJT",
+  "country": "US",
+  "sector": "Media",
+  "cap": 1
+ },
+ "US natural gas": {
+  "ticker": "NG",
+  "country": "--",
+  "sector": "Commodity",
+  "cap": 2
+ },
+ "USD/ARS": {
+  "ticker": "ARS",
+  "country": "AR",
+  "sector": "FX",
+  "cap": 1
+ },
+ "USD/RUB": {
+  "ticker": "RUB",
+  "country": "RU",
+  "sector": "FX",
+  "cap": 2
+ },
+ "Upstart": {
+  "ticker": "UPST",
+  "country": "US",
+  "sector": "Fintech",
+  "cap": 2
+ },
+ "VIX": {
+  "ticker": "VIX",
+  "country": "US",
+  "sector": "Index",
+  "cap": 2
+ },
+ "Virgin Galactic": {
+  "ticker": "SPCE",
+  "country": "US",
+  "sector": "Space",
+  "cap": 1
+ },
+ "XRP": {
+  "ticker": "XRP",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 4
+ },
+ "Zoom": {
+  "ticker": "ZM",
+  "country": "US",
+  "sector": "Software",
+  "cap": 3
+ },
+ "dogwifhat (WIF)": {
+  "ticker": "WIF",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 1
  }
 }

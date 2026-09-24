@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'preact/hooks';
 import type { GuessEntry } from '../lib/guess.ts';
 import { suggest } from '../lib/guess.ts';
+import { flag, metaFor } from '../lib/chips.ts';
 
 interface Props {
   list: GuessEntry[];
@@ -36,14 +37,14 @@ export function GuessBox({ list, disabled, onSubmit }: Props) {
       <label class="sr-only" for="wick-guess">Name the asset</label>
       <input
         id="wick-guess"
-        class="guess-input"
+        class="guess-input mono"
         type="text"
         role="combobox"
         aria-expanded={open && options.length > 0}
         aria-controls={listId}
         aria-autocomplete="list"
         aria-activedescendant={open && options.length ? `wick-opt-${active}` : undefined}
-        placeholder="Name the asset…"
+        placeholder="Type a company, coin or index…"
         autocomplete="off"
         autocapitalize="off"
         spellcheck={false}
@@ -87,7 +88,11 @@ export function GuessBox({ list, disabled, onSubmit }: Props) {
                 submit(o.name);
               }}
             >
-              <span>{o.name}</span>
+              <span class="combo-name">
+                {metaFor(o.name) ? <span class="combo-flag" aria-hidden="true">{flag(metaFor(o.name)?.country ?? '--')}</span> : null}
+                {o.name}
+                {metaFor(o.name) ? <span class="combo-ticker">{metaFor(o.name)?.ticker}</span> : null}
+              </span>
               <span class="combo-class">{o.class}</span>
             </li>
           ))}

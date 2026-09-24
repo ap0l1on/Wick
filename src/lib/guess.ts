@@ -43,13 +43,28 @@ export function suggest(input: string, list: GuessEntry[], limit = 6): GuessEntr
   if (!k) return [];
   const starts: GuessEntry[] = [];
   const contains: GuessEntry[] = [];
+  const fuzzy: GuessEntry[] = [];
   for (const e of list) {
     const keys = entryKeys(e);
     if (keys.some((x) => x.startsWith(k))) starts.push(e);
     else if (keys.some((x) => x.includes(k)) || fold(e.name).includes(k)) contains.push(e);
+    else if (keys.some((x) => subsequence(x, k))) fuzzy.push(e);
     if (starts.length >= limit) break;
   }
-  return [...starts, ...contains].slice(0, limit);
+  return [...starts, ...contains, ...fuzzy].slice(0, limit);
+}
+
+/** Ordered-subsequence match: 'apl' matches 'apple'. Folded inputs only. */
+export function subsequence(hay: string, needle: string): boolean {
+  if (!needle) return false;
+  let j = 0;
+  for (const ch of hay) {
+    if (ch === needle[j]) {
+      j++;
+      if (j >= needle.length) return true;
+    }
+  }
+  return false;
 }
 
 export function tileFor(guessClass: string, answerAsset: string, guessAsset: string, answerClass: string): Tile {

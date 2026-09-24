@@ -2,11 +2,19 @@
 // Imports the browser-safe deobfuscate from scripts/transform (do not copy).
 import { deobfuscate } from '../../scripts/transform.ts';
 
+export interface CandleData {
+  d: string[];
+  o: number[];
+  h: number[];
+  l: number[];
+  c: number[];
+}
+
 export interface Puzzle {
   day: number;
   date: string;
   difficulty: 1 | 2 | 3;
-  chart: { d: string[]; v: number[] };
+  chart: { d: string[]; v: number[]; candles?: CandleData };
   hints: string[]; // 5 pre-computed
   answer: string; // obfuscated payload
 }

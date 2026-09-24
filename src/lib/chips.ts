@@ -15,7 +15,8 @@ const META = assetsData as Record<string, AssetMeta>;
 export const COUNTRY_NAME: Record<string, string> = {
   US: 'USA', CN: 'China', JP: 'Japan', DE: 'Germany', GB: 'UK', CA: 'Canada',
   BR: 'Brazil', TR: 'Türkiye', IN: 'India', AU: 'Australia', CH: 'Switzerland',
-  HK: 'Hong Kong', FI: 'Finland', '--': 'Global',
+  HK: 'Hong Kong', FI: 'Finland', SG: 'Singapore', RU: 'Russia', AR: 'Argentina',
+  '--': 'Global',
 };
 
 export function metaFor(name: string): AssetMeta | null {

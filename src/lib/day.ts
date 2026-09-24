@@ -28,8 +28,3 @@ export function formatCountdown(ms: number): string {
   const sec = String(s % 60).padStart(2, '0');
   return `${h}:${m}:${sec}`;
 }
-
-/** Days playable as archive levels: puzzles that exist and are not in the future. */
-export function unlockedDays(puzzleDays: number[], today: number): number[] {
-  return [...new Set(puzzleDays)].filter((d) => d >= 1 && d <= today).sort((a, b) => a - b);
-}

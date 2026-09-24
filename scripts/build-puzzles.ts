@@ -142,7 +142,8 @@ interface AssetMeta { ticker: string; country: string; sector: string; cap: numb
 const COUNTRY_NAME: Record<string, string> = {
   US: 'USA', CN: 'China', JP: 'Japan', DE: 'Germany', GB: 'UK', CA: 'Canada',
   BR: 'Brazil', TR: 'Türkiye', IN: 'India', AU: 'Australia', CH: 'Switzerland',
-  HK: 'Hong Kong', FI: 'Finland', '--': 'Global',
+  HK: 'Hong Kong', FI: 'Finland', SG: 'Singapore', RU: 'Russia', AR: 'Argentina',
+  '--': 'Global',
 };
 
 const levelCatalog = JSON.parse(readFileSync('data/levels.catalog.json', 'utf8')) as {
@@ -237,6 +238,7 @@ if (levelFailed.length) {
   process.exit(1);
 }
 mkdirSync('public/levels', { recursive: true });
+const worldIndex: { id: number; name: string; theme: string; levels: string[] }[] = [];
 for (const w of levelCatalog.worlds) {
   const outs = levelResults
     .filter((r) => r.ok)
@@ -244,5 +246,7 @@ for (const w of levelCatalog.worlds) {
     .filter((o) => (o.world as number) === w.id)
     .sort((a, b) => ((a.n as number) - (b.n as number)));
   writeFileSync(`public/levels/w${w.id}.json`, JSON.stringify({ version: 1, world: w, levels: outs }));
+  worldIndex.push({ id: w.id, name: w.name, theme: w.theme, levels: outs.map((o) => o.id as string) });
 }
+writeFileSync('public/levels/index.json', JSON.stringify({ version: 1, worlds: worldIndex }));
 console.log(`${levelResults.length}/${levelResults.length} levels passed; public/levels/w1..w6.json written.`);
