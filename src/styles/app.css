@@ -129,6 +129,25 @@ a { color: inherit; }
 .btn-secondary { background: transparent; border-color: var(--control); color: var(--text); width: 100%; margin-top: 8px; }
 .countdown { text-align: center; color: var(--muted); font-size: 14px; margin-top: 12px; }
 
+/* Archive + levels */
+.archive-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: var(--surface); border-radius: 12px; padding: 10px 12px;
+  margin: 12px 0 0; font-size: 14px; color: var(--muted);
+}
+.archive-bar .archive-back { width: auto; margin-top: 0; min-height: 44px; }
+.levels h2 { margin: 0 0 12px; font-size: 18px; }
+.level-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.level-btn {
+  min-height: 48px; border-radius: 12px; border: 1px solid var(--control);
+  background: var(--surface-2); color: var(--text);
+  font-weight: 700; font-size: 15px; cursor: pointer;
+}
+.level-btn.current { border-color: var(--accent); outline: 2px solid var(--accent); }
+.level-btn.won { border-color: var(--right); }
+.level-btn.lost { opacity: 0.6; }
+.level-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
 /* Footer */
 .site-footer { margin-top: 24px; color: var(--muted); font-size: 12px; line-height: 16px; text-align: center; }
 .site-footer a { color: inherit; }

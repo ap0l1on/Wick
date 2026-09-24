@@ -5,7 +5,7 @@ import { GuessList } from './components/GuessList.tsx';
 import { Hints } from './components/Hints.tsx';
 import { Reveal } from './components/Reveal.tsx';
 import { HowTo, StatsModal } from './components/Modals.tsx';
-import { dayState, msToNextDay } from './lib/day.ts';
+import { dayState, msToNextDay, LAUNCH_UTC, TOTAL_DAYS, unlockedDays } from './lib/day.ts';
 import { buildLookup, isCorrectAsset, matchGuess, type GuessEntry } from './lib/guess.ts';
 import { store } from './lib/storage.ts';
 import { shareText, siteDomain } from './lib/share.ts';
@@ -53,12 +53,20 @@ export function App() {
   }, []);
 
   const lookup = useMemo(() => buildLookup(GUESS_LIST), []);
-  const puzzle = ds.kind === 'live' && puzzles ? findPuzzle(puzzles, ds.day) : null;
 
-  const [game, setGame] = useState(() => (ds.kind === 'live' ? store.loadGame(ds.day) : null));
+  // Archive ("levels"): replay any unlocked past chart. Null = today's game.
+  const [playDay, setPlayDay] = useState<number | null>(null);
+  const todayDay = ds.kind === 'live' ? ds.day : ds.kind === 'post' ? TOTAL_DAYS : 0;
+  const day = ds.kind === 'live' ? (playDay ?? ds.day) : 0;
+  const isArchive = ds.kind === 'live' && playDay !== null;
+  const levels = useMemo(() => (puzzles ? unlockedDays(puzzles.map((p) => p.day), todayDay) : []), [puzzles, todayDay]);
+
+  const puzzle = ds.kind === 'live' && puzzles ? findPuzzle(puzzles, day) : null;
+
+  const [game, setGame] = useState(() => (ds.kind === 'live' ? store.loadGame(day) : null));
   useEffect(() => {
-    setGame(ds.kind === 'live' ? store.loadGame(ds.day) : null);
-  }, [ds.day, ds.kind, puzzles !== null]);
+    setGame(ds.kind === 'live' ? store.loadGame(day) : null);
+  }, [day, ds.kind, puzzles !== null]);
 
   const [stats, setStats] = useState(() => store.loadStats());
   const [showHow, setShowHow] = useState(() => !store.seenHowto());
@@ -88,8 +96,8 @@ export function App() {
   const visibleHints = finished ? 5 : Math.min(5, 1 + wrongCount);
 
   useEffect(() => {
-    document.title = ds.kind === 'live' ? `Wick #${ds.day} — Name the chart` : 'Wick — Name the chart';
-  }, [ds.day, ds.kind]);
+    document.title = ds.kind === 'live' ? `Wick #${day} — Name the chart` : 'Wick — Name the chart';
+  }, [day, ds.kind]);
 
   const persist = (day: number, g: NonNullable<typeof game>): void => {
     setGame(g);
@@ -100,18 +108,21 @@ export function App() {
     (day: number, g: NonNullable<typeof game>, won: boolean): void => {
       const done: typeof g = { ...g, finished: true, won };
       persist(day, done);
-      setStats((prev) => {
-        // guard double-count: if game was already finished, don't re-apply
-        if (game?.finished) return prev;
-        const next = store.applyResult(prev, day, won, done.guesses.length);
-        store.saveStats(next);
-        return next;
-      });
+      // Archive replays never touch the daily stats/streak.
+      if (!isArchive) {
+        setStats((prev) => {
+          // guard double-count: if game was already finished, don't re-apply
+          if (game?.finished) return prev;
+          const next = store.applyResult(prev, day, won, done.guesses.length);
+          store.saveStats(next);
+          return next;
+        });
+      }
       const p = puzzles ? findPuzzle(puzzles, day) : null;
       track('game_finished', { day, result: won ? 'win' : 'loss', guesses: won ? done.guesses.length : 'X' });
       void p;
     },
-    [game?.finished, puzzles],
+    [game?.finished, puzzles, isArchive],
   );
 
   const submitGuess = (raw: string): string | null => {
@@ -129,7 +140,7 @@ export function App() {
     const next = { guesses: [...guesses, row], finished: false, won: false };
     if (!firstGuessDone) {
       setFirstGuessDone(true);
-      track('game_started', { day: ds.day, difficulty: puzzle.difficulty });
+      track('game_started', { day, difficulty: puzzle.difficulty });
       const s = store.loadStats();
       if (s.streak >= 2) track('returning_player', { streak_bucket: streakBucket(s.streak) });
     }
@@ -141,28 +152,30 @@ export function App() {
       }
     }
     if (correct) {
-      persist(ds.day, { ...next, finished: true, won: true });
-      setStats((prev) => {
-        if (game?.finished) return prev;
-        const nx = store.applyResult(prev, ds.day, true, next.guesses.length);
-        store.saveStats(nx);
-        return nx;
-      });
-      track('game_finished', { day: ds.day, result: 'win', guesses: next.guesses.length });
+      persist(day, { ...next, finished: true, won: true });
+      if (!isArchive) {
+        setStats((prev) => {
+          if (game?.finished) return prev;
+          const nx = store.applyResult(prev, day, true, next.guesses.length);
+          store.saveStats(nx);
+          return nx;
+        });
+      }
+      track('game_finished', { day, result: 'win', guesses: next.guesses.length });
       return null;
     }
     if (next.guesses.length >= 5) {
-      finishGame(ds.day, next, false);
+      finishGame(day, next, false);
       return null;
     }
-    persist(ds.day, next);
+    persist(day, next);
     return null;
   };
 
   const doShare = async (): Promise<void> => {
     if (!finished) return;
     const domain = siteDomain();
-    const text = shareText(ds.day, guesses.map((g) => g.tile), game?.won ?? false, domain);
+    const text = shareText(day, guesses.map((g) => g.tile), game?.won ?? false, domain);
     let method = 'clipboard';
     try {
       if (navigator.share) {
@@ -221,7 +234,7 @@ export function App() {
       <main class="wrap">
         {ds.kind === 'pre' && (
           <section class="card" aria-label="Countdown to launch">
-            <h1>Wick #1 drops in <CountdownTo ts={Date.UTC(2026, 9, 14)} /></h1>
+            <h1>Wick #1 drops in <CountdownTo ts={LAUNCH_UTC} /></h1>
             <p>A daily game of famous market moments. 5 guesses. New chart at 00:00 UTC.</p>
             <button class="btn btn-primary" type="button" onClick={openHow}>How to play</button>
           </section>
@@ -231,8 +244,16 @@ export function App() {
         )}
         {ds.kind === 'live' && (
           <>
+            {isArchive && (
+              <div class="archive-bar">
+                <span>Archive game — stats count toward today only.</span>
+                <button class="btn btn-secondary archive-back" type="button" onClick={() => setPlayDay(null)}>
+                  Back to Wick #{todayDay}
+                </button>
+              </div>
+            )}
             <div class="title-row">
-              <h1>Wick #{ds.day}</h1>
+              <h1>Wick #{day}</h1>
               <span class="dots" aria-label={`Difficulty ${puzzle?.difficulty ?? ''} of 3`}>
                 {puzzle ? '●'.repeat(puzzle.difficulty) + '○'.repeat(3 - puzzle.difficulty) : ''}
               </span>
@@ -261,13 +282,35 @@ export function App() {
                     dates={windowLabel(puzzle.chart.d)}
                     story={answer.story}
                     tvUrl={answer.tvUrl}
-                    day={ds.day}
+                    day={day}
                     onShare={doShare}
-                    onTradingView={() => track('tradingview_clicked', { day: ds.day })}
+                    onTradingView={() => track('tradingview_clicked', { day })}
                     msToNext={msToNextDay(Date.now())}
                   />
                 )}
               </>
+            )}
+            {levels.length > 1 && (
+              <section class="card levels" aria-label="Past charts">
+                <h2>Past charts</h2>
+                <div class="level-grid">
+                  {levels.map((n) => {
+                    const g = n === day ? game : store.loadGame(n);
+                    const state = g?.finished ? (g.won ? 'won' : 'lost') : 'open';
+                    return (
+                      <button
+                        key={n}
+                        class={`level-btn ${n === day ? 'current' : ''} ${state}`}
+                        type="button"
+                        aria-label={`Wick #${n}${state === 'won' ? ', solved' : state === 'lost' ? ', missed' : ''}`}
+                        onClick={() => setPlayDay(n === todayDay ? null : n)}
+                      >
+                        #{n}
+                      </button>
+                    );
+                  })}
+                </div>
+              </section>
             )}
           </>
         )}

@@ -1,5 +1,5 @@
 // Day index — M2.1. Single source of truth, UTC.
-export const LAUNCH_UTC = Date.UTC(2026, 9, 14); // Oct 14 2026 00:00 UTC
+export const LAUNCH_UTC = Date.UTC(2026, 8, 24); // Sep 24 2026 00:00 UTC (day #1)
 export const DAY_MS = 86_400_000;
 export const TOTAL_DAYS = 100;
 
@@ -27,4 +27,9 @@ export function formatCountdown(ms: number): string {
   const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
   const sec = String(s % 60).padStart(2, '0');
   return `${h}:${m}:${sec}`;
+}
+
+/** Days playable as archive levels: puzzles that exist and are not in the future. */
+export function unlockedDays(puzzleDays: number[], today: number): number[] {
+  return [...new Set(puzzleDays)].filter((d) => d >= 1 && d <= today).sort((a, b) => a - b);
 }

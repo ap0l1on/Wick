@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { dayIndex, dayState, LAUNCH_UTC, DAY_MS } from '../src/lib/day.ts';
+import { dayIndex, dayState, LAUNCH_UTC, DAY_MS, unlockedDays } from '../src/lib/day.ts';
 import { buildLookup, matchGuess, suggest, tileFor, isCorrectAsset, type GuessEntry } from '../src/lib/guess.ts';
 import { store } from '../src/lib/storage.ts';
 import { shareText, siteDomain } from '../src/lib/share.ts';
@@ -70,6 +70,15 @@ describe('streak across skipped day (M2.6)', () => {
   it('loss breaks streak', () => {
     const s = store.applyResult({ played: 1, wins: 1, streak: 2, maxStreak: 2, dist: [1, 0, 0, 0, 0, 0], lastDay: 5 }, 6, false, 5);
     expect(s.streak).toBe(0);
+  });
+});
+
+describe('archive levels (unlockedDays)', () => {
+  it('keeps only played days, sorted and deduped', () => {
+    expect(unlockedDays([3, 1, 2, 2, 99], 3)).toEqual([1, 2, 3]);
+  });
+  it('empty before launch', () => {
+    expect(unlockedDays([1, 2], 0)).toEqual([]);
   });
 });
 
