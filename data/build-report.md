@@ -135,3 +135,128 @@
 | Evergrande | 3333.HK | FAIL | fetch/parse error: No data found, symbol may be delisted |
 | Didi (IPO) | DIDIY | PASS | rise 2.4x, dd 91%, cliff 44%, 252 days |
 | Celsius (CEL) | CEL-USD | PASS | rise 4.3x, dd 97%, cliff 38%, 577 days |
+
+**Levels**
+
+| Level | World | Answer | Symbol | Result | Note |
+| --- | --- | --- | --- | --- | --- |
+| w1-01 | 1 | Apple | AAPL | PASS | rise 2.5x, dd 31%, cliff 13%, 253 days |
+| w1-02 | 1 | Microsoft | MSFT | PASS | rise 1.6x, dd 37%, cliff 8%, 504 days |
+| w1-03 | 1 | Alphabet (Google) | GOOGL | PASS | rise 1.2x, dd 44%, cliff 9%, 313 days |
+| w1-04 | 1 | Amazon | AMZN | PASS | rise 2.1x, dd 23%, cliff 8%, 253 days |
+| w1-05 | 1 | Tesla | TSLA | PASS | rise 2.7x, dd 33%, cliff 10%, 250 days |
+| w1-06 | 1 | Meta Platforms | META | PASS | rise 2.9x, dd 13%, cliff 5%, 250 days |
+| w1-07 | 1 | Netflix | NFLX | PASS | rise 1.7x, dd 28%, cliff 8%, 250 days |
+| w1-08 | 1 | Disney | DIS | PASS | rise 2.4x, dd 43%, cliff 13%, 503 days |
+| w1-09 | 1 | Coca-Cola | KO | PASS | rise 1.5x, dd 37%, cliff 10%, 376 days |
+| w1-10 | 1 | JPMorgan Chase | JPM | PASS | rise 2.3x, dd 44%, cliff 15%, 504 days |
+| w1-11 | 1 | Visa | V | PASS | rise 1.8x, dd 36%, cliff 14%, 376 days |
+| w1-12 | 1 | Johnson & Johnson | JNJ | PASS | rise 1.4x, dd 27%, cliff 7%, 274 days |
+| w1-13 | 1 | Walmart | WMT | PASS | rise 1.3x, dd 26%, cliff 11%, 376 days |
+| w1-14 | 1 | Exxon Mobil | XOM | PASS | rise 2.4x, dd 58%, cliff 12%, 631 days |
+| w1-15 | 1 | Intel | INTC | PASS | rise 2.1x, dd 70%, cliff 26%, 1237 days |
+| w1-16 | 1 | Apple | AAPL | PASS | rise 1.9x, dd 81%, cliff 52%, 752 days |
+| w1-17 | 1 | Amazon | AMZN | PASS | rise 2.4x, dd 65%, cliff 13%, 419 days |
+| w1-18 | 1 | Alphabet (Google) | GOOGL | PASS | rise 4.7x, dd 29%, cliff 8%, 449 days |
+| w1-19 | 1 | Tesla | TSLA | PASS | rise 7.7x, dd 38%, cliff 15%, 355 days |
+| w1-20 | 1 | Netflix | NFLX | PASS | rise 6.7x, dd 23%, cliff 13%, 484 days |
+| w2-01 | 2 | Bank of America | BAC | PASS | rise 4.5x, dd 93%, cliff 29%, 606 days |
+| w2-02 | 2 | Wells Fargo | WFC | PASS | rise 3.5x, dd 79%, cliff 24%, 503 days |
+| w2-03 | 2 | Goldman Sachs | GS | PASS | rise 2.8x, dd 79%, cliff 19%, 503 days |
+| w2-04 | 2 | Morgan Stanley | MS | PASS | rise 3.4x, dd 87%, cliff 26%, 503 days |
+| w2-05 | 2 | General Electric | GE | PASS | rise 2.2x, dd 83%, cliff 13%, 503 days |
+| w2-06 | 2 | Ford | F | PASS | rise 5.0x, dd 87%, cliff 25%, 503 days |
+| w2-07 | 2 | Dow Jones Industrial Average | ^DJI | PASS | rise 1.3x, dd 54%, cliff 8%, 419 days |
+| w2-08 | 2 | Nasdaq 100 | ^NDX | PASS | rise 1.2x, dd 36%, cliff 6%, 294 days |
+| w2-09 | 2 | Bovespa | ^BVSP | PASS | rise 1.8x, dd 60%, cliff 11%, 409 days |
+| w2-10 | 2 | Bovespa | ^BVSP | PASS | rise 1.2x, dd 39%, cliff 5%, 430 days |
+| w2-11 | 2 | Alibaba | BABA | PASS | rise 1.5x, dd 45%, cliff 9%, 291 days |
+| w2-12 | 2 | UBS | UBS | PASS | rise 1.2x, dd 18%, cliff 6%, 64 days |
+| w2-13 | 2 | ARK Innovation ETF | ARKK | PASS | rise 1.9x, dd 32%, cliff 6%, 481 days |
+| w2-14 | 2 | NIO | NIO | PASS | rise 1.9x, dd 78%, cliff 16%, 354 days |
+| w2-15 | 2 | Cardano (ADA) | ADA-USD | PASS | rise 1.5x, dd 92%, cliff 18%, 487 days |
+| w2-16 | 2 | Uber | UBER | PASS | rise 4.3x, dd 64%, cliff 22%, 355 days |
+| w2-17 | 2 | Airbnb | ABNB | PASS | rise 1.7x, dd 59%, cliff 13%, 497 days |
+| w2-18 | 2 | S&P 500 | ^GSPC | PASS | rise 1.3x, dd 20%, cliff 3%, 167 days |
+| w2-19 | 2 | Silver | SI=F | PASS | rise 1.8x, dd 58%, cliff 13%, 355 days |
+| w2-20 | 2 | Cisco | CSCO | PASS | rise 1.4x, dd 60%, cliff 11%, 396 days |
+| w3-01 | 3 | GameStop | GME | PASS | rise 4.2x, dd 30%, cliff 15%, 127 days |
+| w3-02 | 3 | AMC Entertainment | AMC | PASS | rise 2.8x, dd 38%, cliff 20%, 85 days |
+| w3-03 | 3 | Nvidia | NVDA | PASS | rise 3.0x, dd 38%, cliff 18%, 253 days |
+| w3-04 | 3 | Dogecoin (DOGE) | DOGE-USD | PASS | rise 16.5x, dd 65%, cliff 31%, 84 days |
+| w3-05 | 3 | Ethereum | ETH-USD | PASS | rise 3.2x, dd 34%, cliff 15%, 181 days |
+| w3-06 | 3 | Pepe (PEPE) | PEPE24478-USD | PASS | rise 2.4x, dd 53%, cliff 20%, 76 days |
+| w3-07 | 3 | BioNTech | BNTX | PASS | rise 11.5x, dd 58%, cliff 36%, 398 days |
+| w3-08 | 3 | Shopify | SHOP | PASS | rise 5.2x, dd 41%, cliff 18%, 483 days |
+| w3-09 | 3 | XPeng | XPEV | PASS | rise 4.1x, dd 67%, cliff 15%, 190 days |
+| w3-10 | 3 | Palantir | PLTR | PASS | rise 4.3x, dd 53%, cliff 13%, 167 days |
+| w3-11 | 3 | Coinbase | COIN | PASS | rise 6.1x, dd 42%, cliff 14%, 291 days |
+| w3-12 | 3 | MicroStrategy | MSTR | PASS | rise 10.3x, dd 65%, cliff 23%, 208 days |
+| w3-13 | 3 | Riot Blockchain | RIOT | PASS | rise 119.8x, dd 71%, cliff 30%, 355 days |
+| w3-14 | 3 | Cardano (ADA) | ADA-USD | PASS | rise 39.1x, dd 54%, cliff 26%, 458 days |
+| w3-15 | 3 | Terra (LUNA) | LUNC-USD | PASS | rise 94.6x, dd 81%, cliff 39%, 334 days |
+| w3-16 | 3 | Apple | AAPL | PASS | rise 8.1x, dd 19%, cliff 6%, 860 days |
+| w3-17 | 3 | Amazon | AMZN | PASS | rise 5.1x, dd 40%, cliff 11%, 523 days |
+| w3-18 | 3 | Tesla | TSLA | PASS | rise 7.7x, dd 38%, cliff 15%, 292 days |
+| w3-19 | 3 | Roku | ROKU | PASS | rise 7.4x, dd 44%, cliff 21%, 337 days |
+| w3-20 | 3 | Pinduoduo (PDD) | PDD | PASS | rise 6.4x, dd 43%, cliff 14%, 355 days |
+| w4-01 | 4 | Bitcoin | BTC-USD | PASS | rise 2.6x, dd 61%, cliff 21%, 471 days |
+| w4-02 | 4 | Bitcoin | BTC-USD | PASS | rise 3.8x, dd 17%, cliff 14%, 181 days |
+| w4-03 | 4 | Bitcoin | BTC-USD | PASS | rise 4.2x, dd 26%, cliff 8%, 488 days |
+| w4-04 | 4 | Litecoin (LTC) | LTC-USD | PASS | rise 23.2x, dd 52%, cliff 33%, 304 days |
+| w4-05 | 4 | BNB | BNB-USD | PASS | rise 1.8x, dd 70%, cliff 19%, 426 days |
+| w4-06 | 4 | Litecoin (LTC) | LTC-USD | PASS | rise 12.5x, dd 63%, cliff 36%, 458 days |
+| w4-07 | 4 | Bitcoin Cash | BCH-USD | PASS | rise 6.0x, dd 39%, cliff 26%, 53 days |
+| w4-08 | 4 | Stellar | XLM-USD | PASS | rise 31.8x, dd 51%, cliff 26%, 84 days |
+| w4-09 | 4 | Stellar | XLM-USD | PASS | rise 6.3x, dd 42%, cliff 17%, 76 days |
+| w4-10 | 4 | Chainlink | LINK-USD | PASS | rise 30.0x, dd 62%, cliff 46%, 518 days |
+| w4-11 | 4 | Polkadot | DOT-USD | PASS | rise 13.3x, dd 77%, cliff 38%, 427 days |
+| w4-12 | 4 | Near Protocol | NEAR-USD | PASS | rise 9.1x, dd 77%, cliff 36%, 305 days |
+| w4-13 | 4 | Aave | AAVE-USD | PASS | rise 1224.0x, dd 53%, cliff 34%, 243 days |
+| w4-14 | 4 | Cosmos | ATOM-USD | PASS | rise 8.2x, dd 70%, cliff 39%, 305 days |
+| w4-15 | 4 | Filecoin | FIL-USD | PASS | rise 9.8x, dd 66%, cliff 35%, 244 days |
+| w4-16 | 4 | Ethereum Classic | ETC-USD | PASS | rise 3.1x, dd 39%, cliff 30%, 84 days |
+| w4-17 | 4 | Algorand | ALGO-USD | PASS | rise 18.8x, dd 68%, cliff 48%, 611 days |
+| w4-18 | 4 | VeChain | VET-USD | PASS | rise 112.0x, dd 66%, cliff 46%, 458 days |
+| w4-19 | 4 | ApeCoin | APE-USD | PASS | rise 6.2x, dd 99%, cliff 80%, 290 days |
+| w4-20 | 4 | Tron | TRX-USD | PASS | rise 123.7x, dd 76%, cliff 30%, 84 days |
+| w5-01 | 5 | Nikkei 225 | ^N225 | PASS | rise 2.5x, dd 20%, cliff 7%, 981 days |
+| w5-02 | 5 | USD/TRY | USDTRY=X | PASS | rise 1.9x, dd 26%, cliff 8%, 261 days |
+| w5-03 | 5 | WTI crude oil | CL=F | PASS | rise 1.6x, dd 43%, cliff 12%, 251 days |
+| w5-04 | 5 | Silver | SLV | PASS | rise 2.4x, dd 31%, cliff 14%, 212 days |
+| w5-05 | 5 | DXY (dollar index) | DX-Y.NYB | PASS | rise 1.3x, dd 9%, cliff 2%, 401 days |
+| w5-06 | 5 | EUR/USD | EURUSD=X | PASS | rise 1.1x, dd 22%, cliff 2%, 414 days |
+| w5-07 | 5 | FTSE 100 | ^FTSE | PASS | rise 1.3x, dd 10%, cliff 3%, 253 days |
+| w5-08 | 5 | DAX | ^GDAXI | PASS | rise 1.2x, dd 26%, cliff 4%, 300 days |
+| w5-09 | 5 | Bovespa | ^BVSP | PASS | rise 1.4x, dd 47%, cliff 15%, 350 days |
+| w5-10 | 5 | Sensex | ^BSESN | PASS | rise 1.8x, dd 38%, cliff 13%, 248 days |
+| w5-11 | 5 | Hang Seng | ^HSI | PASS | rise 1.2x, dd 28%, cliff 6%, 347 days |
+| w5-12 | 5 | Tencent | 0700.HK | PASS | rise 1.3x, dd 60%, cliff 10%, 346 days |
+| w5-13 | 5 | Wheat | WEAT | PASS | rise 1.7x, dd 40%, cliff 10%, 251 days |
+| w5-14 | 5 | Sugar | SB=F | PASS | rise 1.5x, dd 28%, cliff 8%, 251 days |
+| w5-15 | 5 | Copper | HG=F | PASS | rise 2.0x, dd 17%, cliff 5%, 505 days |
+| w5-16 | 5 | BIST 100 | XU100.IS | PASS | rise 1.9x, dd 22%, cliff 9%, 248 days |
+| w5-17 | 5 | Turkish Airlines | THYAO.IS | PASS | rise 18.9x, dd 49%, cliff 15%, 753 days |
+| w5-18 | 5 | USD/INR | USDINR=X | PASS | rise 1.3x, dd 15%, cliff 3%, 368 days |
+| w5-19 | 5 | AUD/USD | AUDUSD=X | PASS | rise 1.3x, dd 38%, cliff 7%, 367 days |
+| w5-20 | 5 | USD/BRL | USDBRL=X | PASS | rise 1.9x, dd 18%, cliff 6%, 523 days |
+| w6-01 | 6 | Nokia | NOK | PASS | rise 1.6x, dd 36%, cliff 28%, 15 days |
+| w6-02 | 6 | Tilray | TLRY | PASS | rise 3.3x, dd 62%, cliff 50%, 19 days |
+| w6-03 | 6 | Silver | SLV | PASS | rise 1.2x, dd 9%, cliff 8%, 20 days |
+| w6-04 | 6 | Microsoft | MSFT | PASS | rise 1.3x, dd 22%, cliff 15%, 31 days |
+| w6-05 | 6 | Dow Jones Industrial Average | ^DJI | PASS | rise 1.3x, dd 31%, cliff 13%, 31 days |
+| w6-06 | 6 | Netflix | NFLX | PASS | rise 1.1x, dd 52%, cliff 35%, 20 days |
+| w6-07 | 6 | Meta Platforms | META | PASS | rise 1.3x, dd 37%, cliff 25%, 31 days |
+| w6-08 | 6 | Snap | SNAP | PASS | rise 1.2x, dd 49%, cliff 43%, 17 days |
+| w6-09 | 6 | Arm | ARM | PASS | rise 1.6x, dd 25%, cliff 6%, 75 days |
+| w6-10 | 6 | Reddit | RDDT | PASS | rise 4.5x, dd 40%, cliff 15%, 196 days |
+| w6-11 | 6 | Uber | UBER | PASS | rise 1.3x, dd 44%, cliff 11%, 162 days |
+| w6-12 | 6 | Bonk (BONK) | BONK-USD | PASS | rise 24.0x, dd 58%, cliff 33%, 93 days |
+| w6-13 | 6 | Nvidia | NVDA | PASS | rise 1.3x, dd 21%, cliff 10%, 31 days |
+| w6-14 | 6 | Apple | AAPL | PASS | rise 1.2x, dd 23%, cliff 9%, 31 days |
+| w6-15 | 6 | S&P 500 | ^GSPC | PASS | rise 1.2x, dd 12%, cliff 6%, 31 days |
+| w6-16 | 6 | Bitcoin | BTC-USD | PASS | rise 1.5x, dd 46%, cliff 37%, 46 days |
+| w6-17 | 6 | EUR/CHF | EURCHF=X | PASS | rise 1.1x, dd 7%, cliff 2%, 35 days |
+| w6-18 | 6 | USD/JPY | USDJPY=X | PASS | rise 1.1x, dd 1%, cliff 1%, 32 days |
+| w6-19 | 6 | GBP/USD | GBPUSD=X | PASS | rise 1.1x, dd 8%, cliff 4%, 44 days |
+| w6-20 | 6 | Baidu | BIDU | PASS | rise 1.2x, dd 41%, cliff 14%, 64 days |
