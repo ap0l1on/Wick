@@ -20,6 +20,7 @@ const swap = process.argv.includes('--swap');
 
 async function fetchDaily(symbol: string, start: string, end: string): Promise<RawPoint[]> {
   const yf = (await import('yahoo-finance2')).default;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let res: any, lastErr: unknown;
   for (let attempt = 1; attempt <= 4; attempt++) {           // retry with backoff: 2s, 4s, 8s
     try { res = await yf.chart(symbol, { period1: start, period2: end, interval: '1d' }); break; }

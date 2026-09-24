@@ -58,7 +58,6 @@ export function App() {
   const [game, setGame] = useState(() => (ds.kind === 'live' ? store.loadGame(ds.day) : null));
   useEffect(() => {
     setGame(ds.kind === 'live' ? store.loadGame(ds.day) : null);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ds.day, ds.kind, puzzles !== null]);
 
   const [stats, setStats] = useState(() => store.loadStats());
@@ -68,7 +67,6 @@ export function App() {
 
   useEffect(() => {
     if (showHow) track('howto_opened', { first_visit: store.seenHowto() ? 0 : 1 });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const finished = game?.finished ?? false;
@@ -113,7 +111,6 @@ export function App() {
       track('game_finished', { day, result: won ? 'win' : 'loss', guesses: won ? done.guesses.length : 'X' });
       void p;
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     [game?.finished, puzzles],
   );
 

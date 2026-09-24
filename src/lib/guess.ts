@@ -12,6 +12,8 @@ const fold = (s: string): string =>
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
+    // Turkish dotless ı has no decomposition — map it so 'LİRASI' matches 'Lirası'.
+    .replace(/ı/g, 'i')
     .trim();
 
 export function entryKeys(e: GuessEntry): string[] {
@@ -57,11 +59,10 @@ export function tileFor(guessClass: string, answerAsset: string, guessAsset: str
   return 'wrong';
 }
 
-/** Canonical asset compare including aliases of the answer. */
-export function isCorrectAsset(guess: GuessEntry, answerAsset: string, answerAliases: string[]): boolean {
-  const g = fold(guess.name);
-  const candidates = [answerAsset, ...answerAliases].map(fold);
-  if (candidates.includes(g)) return true;
-  // also allow guessing via answer alias entry name mapping
-  return false;
+/** Canonical asset compare. Guess-list entry names are canonical, so only an
+ *  exact (folded) asset match counts — an entry merely named after an alias
+ *  does not. `_answerAliases` is kept so callers don't change. */
+export function isCorrectAsset(guess: GuessEntry, answerAsset: string, _answerAliases: string[]): boolean {
+  void _answerAliases;
+  return fold(guess.name) === fold(answerAsset);
 }

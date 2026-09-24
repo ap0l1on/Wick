@@ -68,7 +68,7 @@ describe('streak across skipped day (M2.6)', () => {
     expect(s.streak).toBe(1);
   });
   it('loss breaks streak', () => {
-    let s = store.applyResult({ played: 1, wins: 1, streak: 2, maxStreak: 2, dist: [1, 0, 0, 0, 0, 0], lastDay: 5 }, 6, false, 5);
+    const s = store.applyResult({ played: 1, wins: 1, streak: 2, maxStreak: 2, dist: [1, 0, 0, 0, 0, 0], lastDay: 5 }, 6, false, 5);
     expect(s.streak).toBe(0);
   });
 });

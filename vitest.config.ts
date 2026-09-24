@@ -6,5 +6,7 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['tests/**/*.test.ts'],
+    // transform.test.ts is a node:test suite, run via `npm run test:data`.
+    exclude: ['tests/transform.test.ts'],
   },
 });

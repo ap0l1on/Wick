@@ -4,6 +4,8 @@
 type Props = Record<string, string | number | undefined>;
 
 export function track(_event: string, _props: Props = {}): void {
+  void _event;
+  void _props;
   /* no custom events — page views only */
 }
 

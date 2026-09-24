@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "automatic",
+    "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "strict": true,
     "noUnusedLocals": true,
