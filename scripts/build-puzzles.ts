@@ -56,10 +56,33 @@ async function build(item: Item): Promise<Built> {
   }
 }
 
-const results: Built[] = [];
-for (const p of catalog.puzzles) { results.push(await build(p)); await new Promise(r => setTimeout(r, 400)); }
-const reserveResults: Built[] = [];
-for (const r of catalog.reserves) { reserveResults.push(await build(r)); await new Promise(r2 => setTimeout(r2, 400)); }
+const results: Built[] = await buildAll(catalog.puzzles, 'puzzle');
+const reserveResults: Built[] = await buildAll(catalog.reserves, 'reserve');
+
+/** Build items with a small worker pool so the log shows live progress and the
+ *  run takes minutes, not half an hour. Workers pull from a shared queue;
+ *  each fetch keeps its own retries, so one slow symbol never blocks the rest. */
+async function buildAll(items: Item[], label: string): Promise<Built[]> {
+  const CONCURRENCY = 5;
+  const out: Built[] = new Array(items.length);
+  const total = items.length;
+  let next = 0;
+  let done = 0;
+  async function worker(): Promise<void> {
+    while (next < total) {
+      const i = next++;
+      const item = items[i];
+      const r = await build(item);
+      out[i] = r;
+      done++;
+      const day = item.day ?? '-';
+      console.log(`[${label} ${done}/${total}] day ${day} ${item.answer} ${r.ok ? 'PASS' : 'FAIL'} — ${r.note}`);
+      await new Promise((res) => setTimeout(res, 200)); // pacing between requests
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, total) }, () => worker()));
+  return out;
+}
 
 const usable = reserveResults.filter(r => r.ok) as Extract<Built, { ok: true }>[];
 const final: Record<string, unknown>[] = [];
@@ -72,6 +95,7 @@ for (const r of results) {
     const sub = usable.splice(i, 1)[0];
     if (sub) {
       const rebuilt = await build({ ...sub.item, day: r.item.day, date: r.item.date });
+      console.log(`[swap] day ${r.item.day} ↳ ${sub.item.answer} ${rebuilt.ok ? 'SWAPPED IN' : 'STILL FAILING'} — ${rebuilt.note}`);
       if (rebuilt.ok) { final.push(rebuilt.out); report.push(`| ${r.item.day} | ${r.item.date} | ↳ ${sub.item.answer} | ${sub.item.symbol} | SWAPPED IN | ${rebuilt.note} |`); }
     }
   }
