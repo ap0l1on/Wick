@@ -1,0 +1,596 @@
+{
+ "Aave": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "AAVE"
+ },
+ "Airbnb": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Travel",
+  "ticker": "ABNB"
+ },
+ "Alibaba": {
+  "cap": 4,
+  "country": "CN",
+  "sector": "E-commerce",
+  "ticker": "BABA"
+ },
+ "Alphabet (Google)": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Internet",
+  "ticker": "GOOGL"
+ },
+ "Algorand": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "ALGO"
+ },
+ "Amazon": {
+  "cap": 5,
+  "country": "US",
+  "sector": "E-commerce",
+  "ticker": "AMZN"
+ },
+ "AMC Entertainment": {
+  "cap": 1,
+  "country": "US",
+  "sector": "Media",
+  "ticker": "AMC"
+ },
+ "ApeCoin": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "APE"
+ },
+ "Apple": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Technology",
+  "ticker": "AAPL"
+ },
+ "ARK Innovation ETF": {
+  "cap": 2,
+  "country": "US",
+  "sector": "ETF",
+  "ticker": "ARKK"
+ },
+ "Arm": {
+  "cap": 4,
+  "country": "GB",
+  "sector": "Semiconductors",
+  "ticker": "ARM"
+ },
+ "AUD/USD": {
+  "cap": 2,
+  "country": "AU",
+  "sector": "FX",
+  "ticker": "AUDUSD"
+ },
+ "Avalanche (AVAX)": {
+  "cap": 3,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "AVAX"
+ },
+ "Baidu": {
+  "cap": 3,
+  "country": "CN",
+  "sector": "Internet",
+  "ticker": "BIDU"
+ },
+ "Bank of America": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Banks",
+  "ticker": "BAC"
+ },
+ "BioNTech": {
+  "cap": 2,
+  "country": "DE",
+  "sector": "Biotech",
+  "ticker": "BNTX"
+ },
+ "BIST 100": {
+  "cap": 1,
+  "country": "TR",
+  "sector": "Index",
+  "ticker": "XU100"
+ },
+ "Bitcoin": {
+  "cap": 5,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "BTC"
+ },
+ "Bitcoin Cash": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "BCH"
+ },
+ "Bonk (BONK)": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "BONK"
+ },
+ "Bovespa": {
+  "cap": 2,
+  "country": "BR",
+  "sector": "Index",
+  "ticker": "BVSP"
+ },
+ "Cardano (ADA)": {
+  "ticker": "ADA",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 3
+ },
+ "Chainlink": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "LINK"
+ },
+ "Cisco": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Technology",
+  "ticker": "CSCO"
+ },
+ "Coca-Cola": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Food & Bev",
+  "ticker": "KO"
+ },
+ "Coinbase": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Crypto",
+  "ticker": "COIN"
+ },
+ "Copper": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Commodity",
+  "ticker": "HG"
+ },
+ "DAX": {
+  "cap": 3,
+  "country": "DE",
+  "sector": "Index",
+  "ticker": "DAX"
+ },
+ "Disney": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Media",
+  "ticker": "DIS"
+ },
+ "Dogecoin (DOGE)": {
+  "cap": 3,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "DOGE"
+ },
+ "Dow Jones Industrial Average": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Index",
+  "ticker": "DJI"
+ },
+ "DXY (dollar index)": {
+  "cap": 3,
+  "country": "US",
+  "sector": "FX",
+  "ticker": "DXY"
+ },
+ "Ethereum": {
+  "cap": 4,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "ETH"
+ },
+ "Ethereum Classic": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "ETC"
+ },
+ "EUR/CHF": {
+  "cap": 3,
+  "country": "CH",
+  "sector": "FX",
+  "ticker": "EURCHF"
+ },
+ "EUR/USD": {
+  "cap": 4,
+  "country": "--",
+  "sector": "FX",
+  "ticker": "EURUSD"
+ },
+ "Exxon Mobil": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Energy",
+  "ticker": "XOM"
+ },
+ "Filecoin": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "FIL"
+ },
+ "Ford": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Autos",
+  "ticker": "F"
+ },
+ "FTSE 100": {
+  "cap": 3,
+  "country": "GB",
+  "sector": "Index",
+  "ticker": "FTSE"
+ },
+ "GameStop": {
+  "cap": 2,
+  "country": "US",
+  "sector": "Retail",
+  "ticker": "GME"
+ },
+ "General Electric": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Industrials",
+  "ticker": "GE"
+ },
+ "Goldman Sachs": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Banks",
+  "ticker": "GS"
+ },
+ "Hang Seng": {
+  "cap": 3,
+  "country": "HK",
+  "sector": "Index",
+  "ticker": "HSI"
+ },
+ "Intel": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Semiconductors",
+  "ticker": "INTC"
+ },
+ "Johnson & Johnson": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Pharma",
+  "ticker": "JNJ"
+ },
+ "JPMorgan Chase": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Banks",
+  "ticker": "JPM"
+ },
+ "Litecoin (LTC)": {
+  "ticker": "LTC",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 3
+ },
+ "Meta Platforms": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Social Media",
+  "ticker": "META"
+ },
+ "MicroStrategy": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Crypto",
+  "ticker": "MSTR"
+ },
+ "Microsoft": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Software",
+  "ticker": "MSFT"
+ },
+ "Morgan Stanley": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Banks",
+  "ticker": "MS"
+ },
+ "Nasdaq 100": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Index",
+  "ticker": "NDX"
+ },
+ "Netflix": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Media",
+  "ticker": "NFLX"
+ },
+ "Nikkei 225": {
+  "cap": 4,
+  "country": "JP",
+  "sector": "Index",
+  "ticker": "N225"
+ },
+ "NIO": {
+  "cap": 2,
+  "country": "CN",
+  "sector": "EVs",
+  "ticker": "NIO"
+ },
+ "Nokia": {
+  "cap": 2,
+  "country": "FI",
+  "sector": "Telecom",
+  "ticker": "NOK"
+ },
+ "Nvidia": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Semiconductors",
+  "ticker": "NVDA"
+ },
+ "Palantir": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Software",
+  "ticker": "PLTR"
+ },
+ "Pepe (PEPE)": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "PEPE"
+ },
+ "Pinduoduo (PDD)": {
+  "cap": 3,
+  "country": "CN",
+  "sector": "E-commerce",
+  "ticker": "PDD"
+ },
+ "Polkadot": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "DOT"
+ },
+ "Polygon (MATIC)": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "MATIC"
+ },
+ "Reddit": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Social Media",
+  "ticker": "RDDT"
+ },
+ "Riot Blockchain": {
+  "cap": 1,
+  "country": "US",
+  "sector": "Crypto-mining",
+  "ticker": "RIOT"
+ },
+ "Roku": {
+  "cap": 2,
+  "country": "US",
+  "sector": "Media",
+  "ticker": "ROKU"
+ },
+ "S&P 500": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Index",
+  "ticker": "SPX"
+ },
+ "Sensex": {
+  "cap": 3,
+  "country": "IN",
+  "sector": "Index",
+  "ticker": "SENSEX"
+ },
+ "Shopify": {
+  "cap": 3,
+  "country": "CA",
+  "sector": "E-commerce",
+  "ticker": "SHOP"
+ },
+ "Silver": {
+  "cap": 3,
+  "country": "--",
+  "sector": "Commodity",
+  "ticker": "SI"
+ },
+ "Snap": {
+  "cap": 2,
+  "country": "US",
+  "sector": "Social Media",
+  "ticker": "SNAP"
+ },
+ "Stellar": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "XLM"
+ },
+ "Sugar": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Commodity",
+  "ticker": "SB"
+ },
+ "Tencent": {
+  "cap": 4,
+  "country": "CN",
+  "sector": "Internet",
+  "ticker": "0700"
+ },
+ "Terra (LUNA)": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "LUNA"
+ },
+ "Tesla": {
+  "cap": 5,
+  "country": "US",
+  "sector": "EVs",
+  "ticker": "TSLA"
+ },
+ "Tether (USDT)": {
+  "cap": 5,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "USDT"
+ },
+ "Tilray": {
+  "cap": 1,
+  "country": "CA",
+  "sector": "Cannabis",
+  "ticker": "TLRY"
+ },
+ "Tron": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "TRX"
+ },
+ "Turkish Airlines": {
+  "cap": 2,
+  "country": "TR",
+  "sector": "Airlines",
+  "ticker": "THYAO"
+ },
+ "Uber": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Travel",
+  "ticker": "UBER"
+ },
+ "UBS": {
+  "cap": 3,
+  "country": "CH",
+  "sector": "Banks",
+  "ticker": "UBS"
+ },
+ "Uniswap": {
+  "cap": 2,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "UNI"
+ },
+ "USD/BRL": {
+  "cap": 2,
+  "country": "BR",
+  "sector": "FX",
+  "ticker": "USDBRL"
+ },
+ "USD/INR": {
+  "cap": 2,
+  "country": "IN",
+  "sector": "FX",
+  "ticker": "USDINR"
+ },
+ "USD/JPY": {
+  "cap": 4,
+  "country": "JP",
+  "sector": "FX",
+  "ticker": "USDJPY"
+ },
+ "USD/TRY": {
+  "cap": 2,
+  "country": "TR",
+  "sector": "FX",
+  "ticker": "USDTRY"
+ },
+ "VeChain": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Crypto",
+  "ticker": "VET"
+ },
+ "Visa": {
+  "cap": 5,
+  "country": "US",
+  "sector": "Payments",
+  "ticker": "V"
+ },
+ "Volkswagen": {
+  "cap": 3,
+  "country": "DE",
+  "sector": "Autos",
+  "ticker": "VOW"
+ },
+ "Walmart": {
+  "cap": 4,
+  "country": "US",
+  "sector": "Retail",
+  "ticker": "WMT"
+ },
+ "Wells Fargo": {
+  "cap": 3,
+  "country": "US",
+  "sector": "Banks",
+  "ticker": "WFC"
+ },
+ "Wheat": {
+  "cap": 1,
+  "country": "--",
+  "sector": "Commodity",
+  "ticker": "WEAT"
+ },
+ "WTI crude oil": {
+  "cap": 4,
+  "country": "--",
+  "sector": "Commodity",
+  "ticker": "CL"
+ },
+ "XPeng": {
+  "cap": 2,
+  "country": "CN",
+  "sector": "EVs",
+  "ticker": "XPEV"
+ },
+ "GBP/USD": {
+  "ticker": "GBPUSD",
+  "country": "GB",
+  "sector": "FX",
+  "cap": 4
+ },
+ "Near Protocol": {
+  "ticker": "NEAR",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 2
+ },
+ "Cosmos": {
+  "ticker": "ATOM",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 2
+ },
+ "BNB": {
+  "ticker": "BNB",
+  "country": "--",
+  "sector": "Crypto",
+  "cap": 3
+ }
+}

@@ -2,7 +2,10 @@
 // No network, no I/O: unit-tested in tests/transform.test.ts.
 
 export type Expect = { rise?: number; dd?: number; neg?: boolean; cliff?: number };
-export interface RawPoint { date: string; close: number } // ISO date (YYYY-MM-DD), close in quote currency
+export interface RawPoint {
+  date: string; close: number; // ISO date (YYYY-MM-DD), close in quote currency
+  open?: number; high?: number; low?: number; // optional OHLC for candlesticks
+}
 
 export interface Stats {
   firstDate: string; lastDate: string; points: number;
@@ -82,6 +85,55 @@ export function downsample(points: RawPoint[], max = 120): RawPoint[] {
 export function normalize(points: RawPoint[]): { d: string[]; v: number[] } {
   const base = Math.abs(points[0].close) || 1;
   return { d: points.map(p => p.date), v: points.map(p => Math.round((p.close / base) * 1000) / 10) };
+}
+
+/** Bucket contiguous raw points into at most `max` candles, indexed like normalize().
+ *  Falls back to closes when OHLC fields are missing (e.g. old data). */
+export function candles(points: RawPoint[], max = 120): { d: string[]; o: number[]; h: number[]; l: number[]; c: number[] } {
+  const base = Math.abs(points[0]?.close) || 1;
+  const idx = (x: number): number => Math.round((x / base) * 1000) / 10;
+  const size = Math.max(1, Math.ceil(points.length / Math.max(1, max)));
+  const d: string[] = [];
+  const o: number[] = [];
+  const h: number[] = [];
+  const l: number[] = [];
+  const c: number[] = [];
+  for (let b = 0; b * size < points.length; b++) {
+    const slice = points.slice(b * size, (b + 1) * size);
+    const first = slice[0];
+    const last = slice[slice.length - 1];
+    d.push(first.date);
+    o.push(idx(first.open ?? first.close));
+    h.push(idx(Math.max(...slice.map((p) => p.high ?? p.close))));
+    l.push(idx(Math.min(...slice.map((p) => p.low ?? p.close))));
+    c.push(idx(last.close));
+  }
+  return { d, o, h, l, c };
+}
+
+export interface DatedWindow { id: string; symbol: string; from: string; to: string; date: string }
+
+/** Spoiler rule: no level may share a symbol + overlapping window with a daily
+ *  scheduled within `horizonDays` after `today` (ISO dates). Returns violations. */
+export function spoilerViolations(
+  levels: { id: string; symbol: string; from: string; to: string }[],
+  dailies: DatedWindow[],
+  today: string,
+  horizonDays = 60,
+): string[] {
+  const t = Date.parse(today);
+  const out: string[] = [];
+  for (const l of levels) {
+    for (const d of dailies) {
+      const ahead = Math.round((Date.parse(d.date) - t) / DAY);
+      if (!Number.isFinite(ahead) || ahead < 0 || ahead > horizonDays) continue;
+      if (l.symbol.toLowerCase() !== d.symbol.toLowerCase()) continue;
+      if (l.from <= d.to && d.from <= l.to) {
+        out.push(`${l.id} (${l.symbol} ${l.from}..${l.to}) overlaps daily ${d.id} (${d.date})`);
+      }
+    }
+  }
+  return out;
 }
 
 const pct = (x: number) => `${Math.round(x * 100).toLocaleString('en-US')}%`;
