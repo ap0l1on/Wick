@@ -1,0 +1,6 @@
+# Changelog
+
+## 0.1.0 — Pre-launch scaffold
+- Wick rebrand (was Mooned placeholder): `wick-v1` obfuscation, `wick:` storage, `/wick/` base, `Wick #` share text.
+- Day index, SVG chart (M5), guess/match/tiles, hints, reveal + TradingView link, stats/streak, share, How to play, dark/light tokens.
+- Pinned Actions, CSP meta, Cloudflare Web Analytics (cookieless page views, token from `CF_BEACON_TOKEN` repo variable), Vitest + Playwright + axe.

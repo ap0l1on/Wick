@@ -1,0 +1,3053 @@
+{
+ "version": 1,
+ "launch": "2026-10-14",
+ "puzzles": [
+  {
+   "key": "gme21",
+   "answer": "GameStop (2021 squeeze)",
+   "aliases": [
+    "GME",
+    "GameStop"
+   ],
+   "class": "stock",
+   "symbol": "GME",
+   "start": "2020-12-01",
+   "end": "2021-03-31",
+   "expect": {
+    "rise": 15
+   },
+   "hintSector": "Video game retailer, USA",
+   "hintClue": "Hedge funds bet against it; Reddit bet on it.",
+   "story": "r/WallStreetBets drove a short squeeze in January 2021 that took the stock up about 20x in weeks.",
+   "difficulty": 1,
+   "day": 1,
+   "date": "2026-10-14",
+   "asset": "GameStop",
+   "title": "GameStop (2021 squeeze)",
+   "tv": "GME",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=GME"
+  },
+  {
+   "key": "luna",
+   "answer": "Terra (LUNA)",
+   "aliases": [
+    "LUNA",
+    "LUNC",
+    "Terra Classic",
+    "Terra Luna"
+   ],
+   "class": "crypto",
+   "symbol": "LUNC-USD",
+   "start": "2021-12-01",
+   "end": "2022-05-31",
+   "expect": {
+    "dd": 0.99
+   },
+   "hintSector": "Blockchain, South Korea-founded",
+   "hintClue": "Its sister stablecoin was supposed to always equal $1.",
+   "story": "In May 2022 the stablecoin UST lost its $1 peg and LUNA fell more than 99% in about a week.",
+   "difficulty": 1,
+   "day": 2,
+   "date": "2026-10-15",
+   "asset": "Terra (LUNA)",
+   "title": "Terra (LUNA)",
+   "tv": "CRYPTO:LUNCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ALUNCUSD"
+  },
+  {
+   "key": "wti",
+   "answer": "WTI crude oil (April 2020)",
+   "aliases": [
+    "Oil",
+    "WTI",
+    "Crude oil",
+    "CL"
+   ],
+   "class": "commodity",
+   "symbol": "CL=F",
+   "start": "2020-01-01",
+   "end": "2020-06-30",
+   "expect": {
+    "neg": true
+   },
+   "hintSector": "Energy commodity",
+   "hintClue": "Storage ran out.",
+   "story": "On 20 April 2020 a US oil futures contract closed at about −$37: sellers paid buyers to take the oil.",
+   "difficulty": 1,
+   "day": 3,
+   "date": "2026-10-16",
+   "asset": "WTI crude oil",
+   "title": "WTI crude oil (April 2020)",
+   "tv": "NYMEX:CL1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NYMEX%3ACL1%21"
+  },
+  {
+   "key": "doge21",
+   "answer": "Dogecoin (DOGE)",
+   "aliases": [
+    "DOGE",
+    "Dogecoin"
+   ],
+   "class": "crypto",
+   "symbol": "DOGE-USD",
+   "start": "2020-12-01",
+   "end": "2021-07-31",
+   "expect": {
+    "rise": 20
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "Started as a joke with a Shiba Inu dog logo.",
+   "story": "Reddit and Elon Musk's tweets sent the joke coin up more than 100x in 2021; it peaked around his SNL appearance in May.",
+   "difficulty": 1,
+   "day": 4,
+   "date": "2026-10-17",
+   "asset": "Dogecoin (DOGE)",
+   "title": "Dogecoin (DOGE)",
+   "tv": "CRYPTO:DOGEUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ADOGEUSD"
+  },
+  {
+   "key": "covid",
+   "answer": "S&P 500 (COVID crash)",
+   "aliases": [
+    "S&P 500",
+    "SPX",
+    "SP500",
+    "GSPC"
+   ],
+   "class": "index",
+   "symbol": "^GSPC",
+   "start": "2020-01-01",
+   "end": "2020-08-31",
+   "expect": {
+    "dd": 0.3
+   },
+   "hintSector": "Stock index, USA",
+   "hintClue": "A virus.",
+   "story": "The S&P 500 fell about 34% in 23 trading days in 2020, then recovered to a record by August.",
+   "difficulty": 1,
+   "day": 5,
+   "date": "2026-10-18",
+   "asset": "S&P 500",
+   "title": "S&P 500 (COVID crash)",
+   "tv": "SP:SPX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SP%3ASPX"
+  },
+  {
+   "key": "tsla",
+   "answer": "Tesla",
+   "aliases": [
+    "TSLA",
+    "Tesla"
+   ],
+   "class": "stock",
+   "symbol": "TSLA",
+   "start": "2019-06-01",
+   "end": "2021-01-31",
+   "expect": {
+    "rise": 15
+   },
+   "hintSector": "Electric cars, USA",
+   "hintClue": "Joined the S&P 500 in December 2020.",
+   "story": "Tesla rose about 20x in 18 months and became the most valuable carmaker in the world.",
+   "difficulty": 1,
+   "day": 6,
+   "date": "2026-10-19",
+   "asset": "Tesla",
+   "title": "Tesla",
+   "tv": "TSLA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TSLA"
+  },
+  {
+   "key": "ftt",
+   "answer": "FTX Token (FTT)",
+   "aliases": [
+    "FTT",
+    "FTX"
+   ],
+   "class": "crypto",
+   "symbol": "FTT-USD",
+   "start": "2022-09-01",
+   "end": "2022-12-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Exchange token, Bahamas",
+   "hintClue": "A famous exchange's own coin.",
+   "story": "FTX, one of the biggest crypto exchanges, collapsed in November 2022 after customers rushed to withdraw.",
+   "difficulty": 1,
+   "day": 7,
+   "date": "2026-10-20",
+   "asset": "FTX Token (FTT)",
+   "title": "FTX Token (FTT)",
+   "tv": "CRYPTO:FTTUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AFTTUSD"
+  },
+  {
+   "key": "aig",
+   "answer": "AIG (2008)",
+   "aliases": [
+    "AIG"
+   ],
+   "class": "stock",
+   "symbol": "AIG",
+   "start": "2007-06-01",
+   "end": "2009-03-31",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Insurance, USA",
+   "hintClue": "Needed a US government rescue of more than $180 billion.",
+   "story": "The insurer needed a rescue of more than $180 billion in 2008; its stock fell about 99%.",
+   "difficulty": 2,
+   "day": 8,
+   "date": "2026-10-21",
+   "asset": "AIG",
+   "title": "AIG (2008)",
+   "tv": "AIG",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=AIG"
+  },
+  {
+   "key": "adani",
+   "answer": "Adani Enterprises",
+   "aliases": [
+    "ADANIENT",
+    "Adani"
+   ],
+   "class": "stock",
+   "symbol": "ADANIENT.NS",
+   "start": "2022-09-01",
+   "end": "2023-03-31",
+   "expect": {
+    "dd": 0.6
+   },
+   "hintSector": "Conglomerate, India",
+   "hintClue": "A short-seller report named after a 1937 airship disaster.",
+   "story": "A Hindenburg Research short report in January 2023 wiped out over half of Adani Enterprises' value in weeks.",
+   "difficulty": 3,
+   "day": 9,
+   "date": "2026-10-22",
+   "asset": "Adani Enterprises",
+   "title": "Adani Enterprises",
+   "tv": "NSE:ADANIENT",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NSE%3AADANIENT"
+  },
+  {
+   "key": "amzn",
+   "answer": "Amazon (dot-com crash)",
+   "aliases": [
+    "AMZN",
+    "Amazon"
+   ],
+   "class": "stock",
+   "symbol": "AMZN",
+   "start": "1999-01-01",
+   "end": "2001-12-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Online retail, USA",
+   "hintClue": "It only sold books at first.",
+   "story": "Amazon fell over 90% in the dot-com crash before becoming one of the world's biggest companies.",
+   "difficulty": 2,
+   "day": 10,
+   "date": "2026-10-23",
+   "asset": "Amazon",
+   "title": "Amazon (dot-com crash)",
+   "tv": "AMZN",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=AMZN"
+  },
+  {
+   "key": "ars23",
+   "answer": "USD/ARS (Argentine peso 2023)",
+   "aliases": [
+    "USDARS",
+    "Argentine peso",
+    "Peso",
+    "ARS"
+   ],
+   "class": "currency",
+   "symbol": "USDARS=X",
+   "start": "2023-10-01",
+   "end": "2024-02-29",
+   "expect": {
+    "rise": 2
+   },
+   "hintSector": "Currency, Argentina",
+   "hintClue": "A new president took a chainsaw to spending.",
+   "story": "Days after taking office in December 2023, Argentina's new government devalued the official peso by more than 50%.",
+   "difficulty": 3,
+   "day": 11,
+   "date": "2026-10-24",
+   "asset": "USD/ARS",
+   "title": "USD/ARS (Argentine peso 2023)",
+   "tv": "FX_IDC:USDARS",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FX_IDC%3AUSDARS"
+  },
+  {
+   "key": "bb21",
+   "answer": "BlackBerry (meme spike)",
+   "aliases": [
+    "BB",
+    "BlackBerry"
+   ],
+   "class": "stock",
+   "symbol": "BB",
+   "start": "2021-01-01",
+   "end": "2021-02-28",
+   "expect": {
+    "rise": 2.5
+   },
+   "hintSector": "Software, Canada",
+   "hintClue": "Famous for phones with keyboards.",
+   "story": "BlackBerry joined the January 2021 meme-stock rally and more than tripled in weeks.",
+   "difficulty": 3,
+   "day": 12,
+   "date": "2026-10-25",
+   "asset": "BlackBerry",
+   "title": "BlackBerry (meme spike)",
+   "tv": "BB",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=BB"
+  },
+  {
+   "key": "btc17",
+   "answer": "Bitcoin (2017 bubble)",
+   "aliases": [
+    "BTC",
+    "Bitcoin"
+   ],
+   "class": "crypto",
+   "symbol": "BTC-USD",
+   "start": "2017-01-01",
+   "end": "2018-12-31",
+   "expect": {
+    "rise": 15,
+    "dd": 0.8
+   },
+   "hintSector": "The first cryptocurrency",
+   "hintClue": "Created in 2009 by someone nobody has identified.",
+   "story": "Bitcoin went from under $1,000 to almost $20,000 in 2017, then lost over 80% during 2018.",
+   "difficulty": 1,
+   "day": 13,
+   "date": "2026-10-26",
+   "asset": "Bitcoin",
+   "title": "Bitcoin (2017 bubble)",
+   "tv": "CRYPTO:BTCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ABTCUSD"
+  },
+  {
+   "key": "baba",
+   "answer": "Alibaba (crackdown)",
+   "aliases": [
+    "BABA",
+    "Alibaba"
+   ],
+   "class": "stock",
+   "symbol": "BABA",
+   "start": "2020-10-01",
+   "end": "2022-10-31",
+   "expect": {
+    "dd": 0.75
+   },
+   "hintSector": "E-commerce, China",
+   "hintClue": "Its founder gave a speech that upset regulators.",
+   "story": "After Jack Ma criticised regulators in October 2020, China halted Ant Group's IPO and Alibaba fell about 80% over two years.",
+   "difficulty": 2,
+   "day": 14,
+   "date": "2026-10-27",
+   "asset": "Alibaba",
+   "title": "Alibaba (crackdown)",
+   "tv": "BABA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=BABA"
+  },
+  {
+   "key": "arkk",
+   "answer": "ARK Innovation ETF",
+   "aliases": [
+    "ARKK",
+    "ARK"
+   ],
+   "class": "etf",
+   "symbol": "ARKK",
+   "start": "2020-03-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 3.5,
+    "dd": 0.75
+   },
+   "hintSector": "Actively managed fund, USA",
+   "hintClue": "Run by a famous star fund manager.",
+   "story": "Cathie Wood's ARKK fund rose about 4x in the 2020 boom, then fell about 80%.",
+   "difficulty": 2,
+   "day": 15,
+   "date": "2026-10-28",
+   "asset": "ARK Innovation ETF",
+   "title": "ARK Innovation ETF",
+   "tv": "ARKK",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=ARKK"
+  },
+  {
+   "key": "bird",
+   "answer": "Allbirds (IPO)",
+   "aliases": [
+    "BIRD",
+    "Allbirds"
+   ],
+   "class": "stock",
+   "symbol": "BIRD",
+   "start": "2021-11-03",
+   "end": "2023-12-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Wool sneakers, USA",
+   "hintClue": "Shoes made from merino wool.",
+   "story": "The sneaker brand's November 2021 IPO was followed by a fall of over 95%.",
+   "difficulty": 3,
+   "day": 16,
+   "date": "2026-10-29",
+   "asset": "Allbirds",
+   "title": "Allbirds (IPO)",
+   "tv": "BIRD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=BIRD"
+  },
+  {
+   "key": "axs",
+   "answer": "Axie Infinity (AXS)",
+   "aliases": [
+    "AXS",
+    "Axie"
+   ],
+   "class": "crypto",
+   "symbol": "AXS-USD",
+   "start": "2021-03-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 30,
+    "dd": 0.9
+   },
+   "hintSector": "Blockchain game, Vietnam",
+   "hintClue": "Players in the Philippines earned a living breeding cartoon creatures.",
+   "story": "The 'play-to-earn' game token rose over 100x in 2021; in 2022 its bridge was hacked for over $600 million.",
+   "difficulty": 2,
+   "day": 17,
+   "date": "2026-10-30",
+   "asset": "Axie Infinity (AXS)",
+   "title": "Axie Infinity (AXS)",
+   "tv": "CRYPTO:AXSUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AAXSUSD"
+  },
+  {
+   "key": "c08",
+   "answer": "Citigroup (2008)",
+   "aliases": [
+    "C",
+    "Citigroup",
+    "Citi"
+   ],
+   "class": "stock",
+   "symbol": "C",
+   "start": "2007-01-01",
+   "end": "2009-03-31",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Banking, USA",
+   "hintClue": "Once the biggest bank in the world.",
+   "story": "Citigroup fell from about $55 to about $1 during the financial crisis.",
+   "difficulty": 3,
+   "day": 18,
+   "date": "2026-10-31",
+   "asset": "Citigroup",
+   "title": "Citigroup (2008)",
+   "tv": "C",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=C"
+  },
+  {
+   "key": "vix18",
+   "answer": "VIX (Volmageddon)",
+   "aliases": [
+    "VIX",
+    "Fear index"
+   ],
+   "class": "index",
+   "symbol": "^VIX",
+   "start": "2018-01-01",
+   "end": "2018-03-31",
+   "expect": {
+    "rise": 3
+   },
+   "hintSector": "Volatility index, USA",
+   "hintClue": "Nicknamed the 'fear index'.",
+   "story": "Wall Street's 'fear index' quadrupled in days in February 2018.",
+   "difficulty": 3,
+   "day": 19,
+   "date": "2026-11-01",
+   "asset": "VIX",
+   "title": "VIX (Volmageddon)",
+   "tv": "TVC:VIX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TVC%3AVIX"
+  },
+  {
+   "key": "amc",
+   "answer": "AMC Entertainment",
+   "aliases": [
+    "AMC"
+   ],
+   "class": "stock",
+   "symbol": "AMC",
+   "start": "2021-05-01",
+   "end": "2021-06-30",
+   "expect": {
+    "rise": 5
+   },
+   "hintSector": "Cinema chain, USA",
+   "hintClue": "Popcorn and a Reddit army.",
+   "story": "The cinema chain became the second big meme stock, rising about 6x in May–June 2021.",
+   "difficulty": 1,
+   "day": 20,
+   "date": "2026-11-02",
+   "asset": "AMC Entertainment",
+   "title": "AMC Entertainment",
+   "tv": "AMC",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=AMC"
+  },
+  {
+   "key": "eth18",
+   "answer": "Ethereum (2018 crash)",
+   "aliases": [
+    "ETH",
+    "Ethereum",
+    "Ether"
+   ],
+   "class": "crypto",
+   "symbol": "ETH-USD",
+   "start": "2017-11-09",
+   "end": "2018-12-31",
+   "expect": {
+    "rise": 3.5,
+    "dd": 0.9
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "The 2017 ICO boom was built on it.",
+   "story": "After the ICO boom peaked in January 2018, Ether fell over 90% within a year.",
+   "difficulty": 2,
+   "day": 21,
+   "date": "2026-11-03",
+   "asset": "Ethereum",
+   "title": "Ethereum (2018 crash)",
+   "tv": "CRYPTO:ETHUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AETHUSD"
+  },
+  {
+   "key": "bynd",
+   "answer": "Beyond Meat (IPO)",
+   "aliases": [
+    "BYND",
+    "Beyond Meat"
+   ],
+   "class": "stock",
+   "symbol": "BYND",
+   "start": "2019-05-02",
+   "end": "2019-10-31",
+   "expect": {
+    "rise": 3
+   },
+   "hintSector": "Plant-based food, USA",
+   "hintClue": "Burgers that bleed beetroot juice.",
+   "story": "Beyond Meat was the hottest IPO of 2019, more than tripling from its first close within three months.",
+   "difficulty": 2,
+   "day": 22,
+   "date": "2026-11-04",
+   "asset": "Beyond Meat",
+   "title": "Beyond Meat (IPO)",
+   "tv": "BYND",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=BYND"
+  },
+  {
+   "key": "oj",
+   "answer": "Orange juice (2024)",
+   "aliases": [
+    "Orange juice",
+    "OJ",
+    "FCOJ"
+   ],
+   "class": "commodity",
+   "symbol": "OJ=F",
+   "start": "2022-01-01",
+   "end": "2024-12-31",
+   "expect": {
+    "rise": 3
+   },
+   "hintSector": "Food commodity, USA and Brazil",
+   "hintClue": "Hurricanes and a tree disease in Florida.",
+   "story": "Citrus disease and hurricanes pushed orange juice futures to record highs, more than tripling from 2022.",
+   "difficulty": 3,
+   "day": 23,
+   "date": "2026-11-05",
+   "asset": "Orange juice",
+   "title": "Orange juice (2024)",
+   "tv": "ICEUS:OJ1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=ICEUS%3AOJ1%21"
+  },
+  {
+   "key": "coin",
+   "answer": "Coinbase (listing)",
+   "aliases": [
+    "COIN",
+    "Coinbase"
+   ],
+   "class": "stock",
+   "symbol": "COIN",
+   "start": "2021-04-14",
+   "end": "2022-12-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Crypto exchange, USA",
+   "hintClue": "Listed on the Nasdaq the week Bitcoin hit a record.",
+   "story": "Coinbase listed in April 2021 near the top of the crypto boom and fell about 90% by the end of 2022.",
+   "difficulty": 2,
+   "day": 24,
+   "date": "2026-11-06",
+   "asset": "Coinbase",
+   "title": "Coinbase (listing)",
+   "tv": "COIN",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=COIN"
+  },
+  {
+   "key": "ada18",
+   "answer": "Cardano (ADA)",
+   "aliases": [
+    "ADA",
+    "Cardano"
+   ],
+   "class": "crypto",
+   "symbol": "ADA-USD",
+   "start": "2017-11-09",
+   "end": "2018-12-31",
+   "expect": {
+    "rise": 20,
+    "dd": 0.9
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "Founded by an Ethereum co-founder; named after a 16th-century mathematician.",
+   "story": "Cardano rose over 30x in two months to January 2018, then lost over 90%.",
+   "difficulty": 3,
+   "day": 25,
+   "date": "2026-11-07",
+   "asset": "Cardano (ADA)",
+   "title": "Cardano (ADA)",
+   "tv": "CRYPTO:ADAUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AADAUSD"
+  },
+  {
+   "key": "crcl",
+   "answer": "Circle (IPO)",
+   "aliases": [
+    "CRCL",
+    "Circle"
+   ],
+   "class": "stock",
+   "symbol": "CRCL",
+   "start": "2025-06-05",
+   "end": "2025-09-30",
+   "expect": {
+    "rise": 2.5
+   },
+   "hintSector": "Stablecoin issuer, USA",
+   "hintClue": "Issues the second-biggest dollar stablecoin.",
+   "story": "Circle, the company behind the USDC stablecoin, listed in June 2025 and its shares more than tripled from their first-day close within weeks.",
+   "difficulty": 3,
+   "day": 26,
+   "date": "2026-11-08",
+   "asset": "Circle",
+   "title": "Circle (IPO)",
+   "tv": "CRCL",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRCL"
+  },
+  {
+   "key": "trump",
+   "answer": "Official Trump (TRUMP)",
+   "aliases": [
+    "TRUMP",
+    "$TRUMP",
+    "Official Trump"
+   ],
+   "class": "crypto",
+   "symbol": "TRUMP35336-USD",
+   "start": "2025-01-17",
+   "end": "2025-04-30",
+   "expect": {
+    "dd": 0.75
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "Launched three days before an inauguration.",
+   "story": "A US president-elect launched his own meme coin on 17 January 2025; it spiked in two days, then fell over 80%.",
+   "difficulty": 1,
+   "day": 27,
+   "date": "2026-11-09",
+   "asset": "Official Trump (TRUMP)",
+   "title": "Official Trump (TRUMP)",
+   "tv": "CRYPTO:TRUMPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ATRUMPUSD"
+  },
+  {
+   "key": "csco",
+   "answer": "Cisco (dot-com)",
+   "aliases": [
+    "CSCO",
+    "Cisco"
+   ],
+   "class": "stock",
+   "symbol": "CSCO",
+   "start": "1998-01-01",
+   "end": "2002-10-31",
+   "expect": {
+    "rise": 4,
+    "dd": 0.85
+   },
+   "hintSector": "Networking, USA",
+   "hintClue": "In March 2000 it was briefly the most valuable company in the world.",
+   "story": "Cisco was the world's most valuable company in March 2000, then fell almost 90% in the dot-com crash.",
+   "difficulty": 2,
+   "day": 28,
+   "date": "2026-11-10",
+   "asset": "Cisco",
+   "title": "Cisco (dot-com)",
+   "tv": "CSCO",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CSCO"
+  },
+  {
+   "key": "chf",
+   "answer": "EUR/CHF (Swiss franc unpeg)",
+   "aliases": [
+    "EURCHF",
+    "Swiss franc",
+    "CHF",
+    "Franc"
+   ],
+   "class": "currency",
+   "symbol": "EURCHF=X",
+   "start": "2014-11-01",
+   "end": "2015-03-31",
+   "expect": {
+    "cliff": 0.1
+   },
+   "hintSector": "Currency, Switzerland",
+   "hintClue": "A central bank dropped a floor without warning.",
+   "story": "On 15 January 2015 the Swiss National Bank scrapped its euro cap and the franc jumped as much as 30% in minutes.",
+   "difficulty": 2,
+   "day": 29,
+   "date": "2026-11-11",
+   "asset": "EUR/CHF",
+   "title": "EUR/CHF (Swiss franc unpeg)",
+   "tv": "FX:EURCHF",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FX%3AEURCHF"
+  },
+  {
+   "key": "crwv",
+   "answer": "CoreWeave (IPO)",
+   "aliases": [
+    "CRWV",
+    "CoreWeave"
+   ],
+   "class": "stock",
+   "symbol": "CRWV",
+   "start": "2025-03-28",
+   "end": "2025-08-31",
+   "expect": {
+    "rise": 3.5
+   },
+   "hintSector": "AI cloud, USA",
+   "hintClue": "Started out mining Ethereum.",
+   "story": "CoreWeave's March 2025 IPO was cut to $40 a share; within three months the stock had more than quadrupled.",
+   "difficulty": 3,
+   "day": 30,
+   "date": "2026-11-12",
+   "asset": "CoreWeave",
+   "title": "CoreWeave (IPO)",
+   "tv": "CRWV",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRWV"
+  },
+  {
+   "key": "btc2122",
+   "answer": "Bitcoin (2021 double top)",
+   "aliases": [
+    "BTC",
+    "Bitcoin"
+   ],
+   "class": "crypto",
+   "symbol": "BTC-USD",
+   "start": "2020-10-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 5,
+    "dd": 0.75
+   },
+   "hintSector": "The first cryptocurrency",
+   "hintClue": "Companies started adding it to their balance sheets.",
+   "story": "Bitcoin peaked near $69,000 in November 2021, then fell over 75% as FTX, LUNA and rate rises hit crypto in 2022.",
+   "difficulty": 2,
+   "day": 31,
+   "date": "2026-11-13",
+   "asset": "Bitcoin",
+   "title": "Bitcoin (2021 double top)",
+   "tv": "CRYPTO:BTCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ABTCUSD"
+  },
+  {
+   "key": "cvna",
+   "answer": "Carvana",
+   "aliases": [
+    "CVNA",
+    "Carvana"
+   ],
+   "class": "stock",
+   "symbol": "CVNA",
+   "start": "2021-08-01",
+   "end": "2024-12-31",
+   "expect": {
+    "dd": 0.95,
+    "rise": 30
+   },
+   "hintSector": "Online used cars, USA",
+   "hintClue": "Sells cars from giant glass vending machines.",
+   "story": "Carvana fell about 99% by December 2022, then rose around 70x in two years.",
+   "difficulty": 3,
+   "day": 32,
+   "date": "2026-11-14",
+   "asset": "Carvana",
+   "title": "Carvana",
+   "tv": "CVNA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CVNA"
+  },
+  {
+   "key": "n225",
+   "answer": "Nikkei 225 (1989 bubble)",
+   "aliases": [
+    "Nikkei",
+    "Nikkei 225",
+    "N225"
+   ],
+   "class": "index",
+   "symbol": "^N225",
+   "start": "1985-01-01",
+   "end": "1992-12-31",
+   "expect": {
+    "rise": 2.5,
+    "dd": 0.55
+   },
+   "hintSector": "Stock index, Japan",
+   "hintClue": "Its 1989 record wasn't beaten until 2024.",
+   "story": "Japan's index peaked on the last trading day of 1989; it took 34 years to get back there.",
+   "difficulty": 2,
+   "day": 33,
+   "date": "2026-11-15",
+   "asset": "Nikkei 225",
+   "title": "Nikkei 225 (1989 bubble)",
+   "tv": "TVC:NI225",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TVC%3ANI225"
+  },
+  {
+   "key": "nvda",
+   "answer": "Nvidia",
+   "aliases": [
+    "NVDA",
+    "Nvidia"
+   ],
+   "class": "stock",
+   "symbol": "NVDA",
+   "start": "2022-10-01",
+   "end": "2024-06-30",
+   "expect": {
+    "rise": 9
+   },
+   "hintSector": "Chips, USA",
+   "hintClue": "Almost every AI model is trained on its chips.",
+   "story": "The AI boom took Nvidia up about 12x in under two years; in June 2024 it briefly became the world's most valuable company.",
+   "difficulty": 1,
+   "day": 34,
+   "date": "2026-11-16",
+   "asset": "Nvidia",
+   "title": "Nvidia",
+   "tv": "NVDA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NVDA"
+  },
+  {
+   "key": "pepe",
+   "answer": "Pepe (PEPE)",
+   "aliases": [
+    "PEPE",
+    "Pepe"
+   ],
+   "class": "crypto",
+   "symbol": "PEPE24478-USD",
+   "start": "2023-04-17",
+   "end": "2023-07-31",
+   "expect": {
+    "rise": 10
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "Named after an internet frog.",
+   "story": "A frog-meme coin launched in April 2023 and hit a $1.6 billion market value within weeks.",
+   "difficulty": 2,
+   "day": 35,
+   "date": "2026-11-17",
+   "asset": "Pepe (PEPE)",
+   "title": "Pepe (PEPE)",
+   "tv": "CRYPTO:PEPEUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3APEPEUSD"
+  },
+  {
+   "key": "djt",
+   "answer": "Trump Media & Technology (DJT)",
+   "aliases": [
+    "DJT",
+    "Trump Media",
+    "Truth Social"
+   ],
+   "class": "stock",
+   "symbol": "DJT",
+   "start": "2024-03-26",
+   "end": "2024-10-31",
+   "expect": {
+    "dd": 0.7
+   },
+   "hintSector": "Social media, USA",
+   "hintClue": "Its ticker is its founder's initials.",
+   "story": "Truth Social's parent listed in March 2024 via a SPAC and fell about 80% in six months before an election-season rebound.",
+   "difficulty": 2,
+   "day": 36,
+   "date": "2026-11-18",
+   "asset": "Trump Media & Technology (DJT)",
+   "title": "Trump Media & Technology (DJT)",
+   "tv": "DJT",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=DJT"
+  },
+  {
+   "key": "silver11",
+   "answer": "Silver (2011)",
+   "aliases": [
+    "Silver",
+    "SI",
+    "XAG"
+   ],
+   "class": "commodity",
+   "symbol": "SI=F",
+   "start": "2010-07-01",
+   "end": "2011-12-31",
+   "expect": {
+    "rise": 2.5
+   },
+   "hintSector": "Precious metal",
+   "hintClue": "Not gold, but close.",
+   "story": "Silver rose to nearly $50 an ounce in April 2011, close to its 1980 record, then fell a third in days.",
+   "difficulty": 3,
+   "day": 37,
+   "date": "2026-11-19",
+   "asset": "Silver",
+   "title": "Silver (2011)",
+   "tv": "COMEX:SI1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=COMEX%3ASI1%21"
+  },
+  {
+   "key": "fb12",
+   "answer": "Facebook (IPO)",
+   "aliases": [
+    "META",
+    "FB",
+    "Facebook",
+    "Meta"
+   ],
+   "class": "stock",
+   "symbol": "META",
+   "start": "2012-05-18",
+   "end": "2012-12-31",
+   "expect": {
+    "dd": 0.45
+   },
+   "hintSector": "Social media, USA",
+   "hintClue": "The biggest tech IPO of its time, and a famously glitchy first day.",
+   "story": "Facebook's May 2012 IPO was a flop: the stock halved within four months.",
+   "difficulty": 2,
+   "day": 38,
+   "date": "2026-11-20",
+   "asset": "Facebook",
+   "title": "Facebook (IPO)",
+   "tv": "META",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=META"
+  },
+  {
+   "key": "avax",
+   "answer": "Avalanche (AVAX)",
+   "aliases": [
+    "AVAX",
+    "Avalanche"
+   ],
+   "class": "crypto",
+   "symbol": "AVAX-USD",
+   "start": "2021-07-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 7,
+    "dd": 0.8
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "Named after a natural disaster.",
+   "story": "Avalanche rose over 10x in the second half of 2021 before the 2022 crypto crash.",
+   "difficulty": 3,
+   "day": 39,
+   "date": "2026-11-21",
+   "asset": "Avalanche (AVAX)",
+   "title": "Avalanche (AVAX)",
+   "tv": "CRYPTO:AVAXUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AAVAXUSD"
+  },
+  {
+   "key": "fnma",
+   "answer": "Fannie Mae (2008)",
+   "aliases": [
+    "FNMA",
+    "Fannie Mae"
+   ],
+   "class": "stock",
+   "symbol": "FNMA",
+   "start": "2008-01-01",
+   "end": "2008-12-31",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Mortgages, USA",
+   "hintClue": "Its nickname sounds like a relative.",
+   "story": "The US government took over the mortgage giant in September 2008; its shares were nearly wiped out.",
+   "difficulty": 3,
+   "day": 40,
+   "date": "2026-11-22",
+   "asset": "Fannie Mae",
+   "title": "Fannie Mae (2008)",
+   "tv": "FNMA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FNMA"
+  },
+  {
+   "key": "shib",
+   "answer": "Shiba Inu (SHIB)",
+   "aliases": [
+    "SHIB",
+    "Shiba Inu"
+   ],
+   "class": "crypto",
+   "symbol": "SHIB-USD",
+   "start": "2021-04-01",
+   "end": "2021-12-31",
+   "expect": {
+    "rise": 20
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "Called itself the 'Dogecoin killer'.",
+   "story": "The 'Dogecoin killer' rose thousands of percent in 2021, briefly becoming a top-10 crypto by market value.",
+   "difficulty": 2,
+   "day": 41,
+   "date": "2026-11-23",
+   "asset": "Shiba Inu (SHIB)",
+   "title": "Shiba Inu (SHIB)",
+   "tv": "CRYPTO:SHIBUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASHIBUSD"
+  },
+  {
+   "key": "gme24",
+   "answer": "GameStop (Roaring Kitty return)",
+   "aliases": [
+    "GME",
+    "GameStop"
+   ],
+   "class": "stock",
+   "symbol": "GME",
+   "start": "2024-04-15",
+   "end": "2024-06-30",
+   "expect": {
+    "rise": 2.5
+   },
+   "hintSector": "Video game retailer, USA",
+   "hintClue": "A famous trader posted for the first time in three years.",
+   "story": "In May 2024 'Roaring Kitty' posted again after three years, and the stock more than tripled in days.",
+   "difficulty": 2,
+   "day": 42,
+   "date": "2026-11-24",
+   "asset": "GameStop",
+   "title": "GameStop (Roaring Kitty return)",
+   "tv": "GME",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=GME"
+  },
+  {
+   "key": "sse",
+   "answer": "Shanghai Composite (2015 bubble)",
+   "aliases": [
+    "SSE",
+    "Shanghai Composite",
+    "000001.SS"
+   ],
+   "class": "index",
+   "symbol": "000001.SS",
+   "start": "2014-07-01",
+   "end": "2016-02-29",
+   "expect": {
+    "rise": 2.2,
+    "dd": 0.45
+   },
+   "hintSector": "Stock index, China",
+   "hintClue": "Millions of first-time investors borrowed to buy.",
+   "story": "China's stock bubble more than doubled the index in a year, then crashed from June 2015 despite government rescue efforts.",
+   "difficulty": 2,
+   "day": 43,
+   "date": "2026-11-25",
+   "asset": "Shanghai Composite",
+   "title": "Shanghai Composite (2015 bubble)",
+   "tv": "SSE:000001",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SSE%3A000001"
+  },
+  {
+   "key": "gpro",
+   "answer": "GoPro (IPO)",
+   "aliases": [
+    "GPRO",
+    "GoPro"
+   ],
+   "class": "stock",
+   "symbol": "GPRO",
+   "start": "2014-06-26",
+   "end": "2016-12-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Action cameras, USA",
+   "hintClue": "Strapped to helmets and surfboards.",
+   "story": "GoPro nearly tripled after its 2014 IPO, then fell about 90%.",
+   "difficulty": 3,
+   "day": 44,
+   "date": "2026-11-26",
+   "asset": "GoPro",
+   "title": "GoPro (IPO)",
+   "tv": "GPRO",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=GPRO"
+  },
+  {
+   "key": "sol",
+   "answer": "Solana (SOL)",
+   "aliases": [
+    "SOL",
+    "Solana"
+   ],
+   "class": "crypto",
+   "symbol": "SOL-USD",
+   "start": "2020-10-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 50,
+    "dd": 0.9
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "FTX's founder was one of its biggest backers.",
+   "story": "Solana rose over 100x in 2021, then fell over 90% after FTX, one of its biggest backers, collapsed.",
+   "difficulty": 2,
+   "day": 45,
+   "date": "2026-11-27",
+   "asset": "Solana (SOL)",
+   "title": "Solana (SOL)",
+   "tv": "CRYPTO:SOLUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASOLUSD"
+  },
+  {
+   "key": "lyft",
+   "answer": "Lyft (IPO)",
+   "aliases": [
+    "LYFT",
+    "Lyft"
+   ],
+   "class": "stock",
+   "symbol": "LYFT",
+   "start": "2019-03-29",
+   "end": "2022-12-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Ride-hailing, USA",
+   "hintClue": "Its cars once wore pink moustaches.",
+   "story": "Lyft beat its rival to an IPO in March 2019, then lost about 90% of its value.",
+   "difficulty": 3,
+   "day": 46,
+   "date": "2026-11-28",
+   "asset": "Lyft",
+   "title": "Lyft (IPO)",
+   "tv": "LYFT",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=LYFT"
+  },
+  {
+   "key": "gbp16",
+   "answer": "GBP/USD (Brexit vote)",
+   "aliases": [
+    "GBPUSD",
+    "Pound",
+    "Sterling",
+    "Cable",
+    "GBP"
+   ],
+   "class": "currency",
+   "symbol": "GBPUSD=X",
+   "start": "2016-05-01",
+   "end": "2016-10-31",
+   "expect": {
+    "cliff": 0.06
+   },
+   "hintSector": "Currency, UK",
+   "hintClue": "A referendum result nobody in the market expected.",
+   "story": "The pound fell about 8% overnight after the UK voted to leave the EU on 23 June 2016.",
+   "difficulty": 2,
+   "day": 47,
+   "date": "2026-11-29",
+   "asset": "GBP/USD",
+   "title": "GBP/USD (Brexit vote)",
+   "tv": "FX:GBPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FX%3AGBPUSD"
+  },
+  {
+   "key": "zm",
+   "answer": "Zoom",
+   "aliases": [
+    "ZM",
+    "Zoom"
+   ],
+   "class": "stock",
+   "symbol": "ZM",
+   "start": "2019-12-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 6,
+    "dd": 0.8
+   },
+   "hintSector": "Video calls, USA",
+   "hintClue": "Everyone's classes and meetings moved here in 2020.",
+   "story": "Lockdowns made Zoom a verb and the stock rose about 8x in 2020, then gave nearly all of it back.",
+   "difficulty": 1,
+   "day": 48,
+   "date": "2026-11-30",
+   "asset": "Zoom",
+   "title": "Zoom",
+   "tv": "ZM",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=ZM"
+  },
+  {
+   "key": "squid",
+   "answer": "Squid Game token (SQUID)",
+   "aliases": [
+    "SQUID",
+    "Squid Game"
+   ],
+   "class": "crypto",
+   "symbol": "SQUID-USD",
+   "start": "2021-10-20",
+   "end": "2021-11-10",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "Named after a Netflix show, and you couldn't sell it.",
+   "story": "A token named after the Netflix hit rose thousands of percent; holders couldn't sell, and on 1 November 2021 it went to almost zero.",
+   "difficulty": 2,
+   "day": 49,
+   "date": "2026-12-01",
+   "asset": "Squid Game token (SQUID)",
+   "title": "Squid Game token (SQUID)",
+   "tv": "CRYPTO:SQUIDUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASQUIDUSD"
+  },
+  {
+   "key": "hood",
+   "answer": "Robinhood (IPO)",
+   "aliases": [
+    "HOOD",
+    "Robinhood"
+   ],
+   "class": "stock",
+   "symbol": "HOOD",
+   "start": "2021-07-29",
+   "end": "2022-06-30",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Trading app, USA",
+   "hintClue": "The app at the centre of the GameStop saga.",
+   "story": "Robinhood went public in July 2021, spiked in a meme rally, then fell about 90%.",
+   "difficulty": 2,
+   "day": 50,
+   "date": "2026-12-02",
+   "asset": "Robinhood",
+   "title": "Robinhood (IPO)",
+   "tv": "HOOD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=HOOD"
+  },
+  {
+   "key": "cocoa",
+   "answer": "Cocoa (2024)",
+   "aliases": [
+    "Cocoa",
+    "CC"
+   ],
+   "class": "commodity",
+   "symbol": "CC=F",
+   "start": "2023-01-01",
+   "end": "2024-12-31",
+   "expect": {
+    "rise": 4
+   },
+   "hintSector": "Food commodity, West Africa",
+   "hintClue": "Chocolate makers hated this chart.",
+   "story": "Bad harvests in Ivory Coast and Ghana sent cocoa above $12,000 a tonne, more than 4x in under two years.",
+   "difficulty": 2,
+   "day": 51,
+   "date": "2026-12-03",
+   "asset": "Cocoa",
+   "title": "Cocoa (2024)",
+   "tv": "ICEUS:CC1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=ICEUS%3ACC1%21"
+  },
+  {
+   "key": "kodk",
+   "answer": "Kodak (2020)",
+   "aliases": [
+    "KODK",
+    "Kodak",
+    "Eastman Kodak"
+   ],
+   "class": "stock",
+   "symbol": "KODK",
+   "start": "2020-07-01",
+   "end": "2020-08-31",
+   "expect": {
+    "rise": 10
+   },
+   "hintSector": "Photography, USA",
+   "hintClue": "A film-camera company pivoting to making drug ingredients.",
+   "story": "A proposed $765 million government loan to make drug ingredients sent the old camera company up more than 10x in two days in July 2020.",
+   "difficulty": 2,
+   "day": 52,
+   "date": "2026-12-04",
+   "asset": "Kodak",
+   "title": "Kodak (2020)",
+   "tv": "KODK",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=KODK"
+  },
+  {
+   "key": "bnb",
+   "answer": "BNB",
+   "aliases": [
+    "BNB",
+    "Binance Coin"
+   ],
+   "class": "crypto",
+   "symbol": "BNB-USD",
+   "start": "2021-01-01",
+   "end": "2021-06-30",
+   "expect": {
+    "rise": 12
+   },
+   "hintSector": "Exchange token",
+   "hintClue": "Issued by the world's largest crypto exchange.",
+   "story": "The world's largest crypto exchange's token rose about 17x in the first five months of 2021.",
+   "difficulty": 3,
+   "day": 53,
+   "date": "2026-12-05",
+   "asset": "BNB",
+   "title": "BNB",
+   "tv": "CRYPTO:BNBUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ABNBUSD"
+  },
+  {
+   "key": "nvax",
+   "answer": "Novavax",
+   "aliases": [
+    "NVAX",
+    "Novavax"
+   ],
+   "class": "stock",
+   "symbol": "NVAX",
+   "start": "2020-01-01",
+   "end": "2021-03-31",
+   "expect": {
+    "rise": 40
+   },
+   "hintSector": "Biotech, USA",
+   "hintClue": "A small vaccine company that got $1.6 billion from Operation Warp Speed.",
+   "story": "Novavax rose over 50x in 2020 on its COVID vaccine hopes.",
+   "difficulty": 3,
+   "day": 54,
+   "date": "2026-12-06",
+   "asset": "Novavax",
+   "title": "Novavax",
+   "tv": "NVAX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NVAX"
+  },
+  {
+   "key": "ust",
+   "answer": "TerraUSD (UST)",
+   "aliases": [
+    "UST",
+    "TerraUSD",
+    "USTC"
+   ],
+   "class": "crypto",
+   "symbol": "USTC-USD",
+   "start": "2022-04-15",
+   "end": "2022-06-15",
+   "expect": {
+    "dd": 0.8
+   },
+   "hintSector": "Stablecoin",
+   "hintClue": "It was supposed to be the most boring chart possible.",
+   "story": "An 'algorithmic stablecoin' meant to stay at $1 fell to cents in May 2022, taking LUNA with it.",
+   "difficulty": 2,
+   "day": 55,
+   "date": "2026-12-07",
+   "asset": "TerraUSD (UST)",
+   "title": "TerraUSD (UST)",
+   "tv": "CRYPTO:USTCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AUSTCUSD"
+  },
+  {
+   "key": "lkncy",
+   "answer": "Luckin Coffee",
+   "aliases": [
+    "LKNCY",
+    "LK",
+    "Luckin"
+   ],
+   "class": "stock",
+   "symbol": "LKNCY",
+   "start": "2020-01-01",
+   "end": "2020-07-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Coffee chain, China",
+   "hintClue": "China's challenger to Starbucks.",
+   "story": "In April 2020 Luckin admitted about $300 million of its 2019 sales were fabricated; the stock fell about 90%.",
+   "difficulty": 2,
+   "day": 56,
+   "date": "2026-12-08",
+   "asset": "Luckin Coffee",
+   "title": "Luckin Coffee",
+   "tv": "LKNCY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=LKNCY"
+  },
+  {
+   "key": "n225_24",
+   "answer": "Nikkei 225 (August 2024 crash)",
+   "aliases": [
+    "Nikkei",
+    "Nikkei 225",
+    "N225"
+   ],
+   "class": "index",
+   "symbol": "^N225",
+   "start": "2024-07-01",
+   "end": "2024-08-31",
+   "expect": {
+    "cliff": 0.1
+   },
+   "hintSector": "Stock index, Japan",
+   "hintClue": "A carry trade unwound after a rate rise.",
+   "story": "On 5 August 2024 Japan's index fell 12.4% in one day, its worst day since 1987, then bounced back within days.",
+   "difficulty": 2,
+   "day": 57,
+   "date": "2026-12-09",
+   "asset": "Nikkei 225",
+   "title": "Nikkei 225 (August 2024 crash)",
+   "tv": "TVC:NI225",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TVC%3ANI225"
+  },
+  {
+   "key": "nvda_ds",
+   "answer": "Nvidia (DeepSeek day)",
+   "aliases": [
+    "NVDA",
+    "Nvidia"
+   ],
+   "class": "stock",
+   "symbol": "NVDA",
+   "start": "2025-01-01",
+   "end": "2025-02-28",
+   "expect": {
+    "cliff": 0.15
+   },
+   "hintSector": "Chips, USA",
+   "hintClue": "A Chinese AI lab released a cheap, strong model.",
+   "story": "On 27 January 2025 Nvidia fell about 17% in a day, wiping out close to $600 billion in value, after DeepSeek's cheap AI model spooked investors.",
+   "difficulty": 3,
+   "day": 58,
+   "date": "2026-12-10",
+   "asset": "Nvidia",
+   "title": "Nvidia (DeepSeek day)",
+   "tv": "NVDA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NVDA"
+  },
+  {
+   "key": "wif",
+   "answer": "dogwifhat (WIF)",
+   "aliases": [
+    "WIF",
+    "dogwifhat"
+   ],
+   "class": "crypto",
+   "symbol": "WIF-USD",
+   "start": "2023-12-01",
+   "end": "2024-12-31",
+   "expect": {
+    "rise": 15
+   },
+   "hintSector": "Meme coin on Solana",
+   "hintClue": "A dog. Wearing a knitted hat.",
+   "story": "A Solana meme coin about a dog in a hat rose over 20x between December 2023 and March 2024.",
+   "difficulty": 2,
+   "day": 59,
+   "date": "2026-12-11",
+   "asset": "dogwifhat (WIF)",
+   "title": "dogwifhat (WIF)",
+   "tv": "CRYPTO:WIFUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AWIFUSD"
+  },
+  {
+   "key": "open",
+   "answer": "Opendoor (2025)",
+   "aliases": [
+    "OPEN",
+    "Opendoor"
+   ],
+   "class": "stock",
+   "symbol": "OPEN",
+   "start": "2025-06-01",
+   "end": "2025-09-30",
+   "expect": {
+    "rise": 5
+   },
+   "hintSector": "Online home buying, USA",
+   "hintClue": "A sub-$1 stock that retail traders adopted in 2025.",
+   "story": "In summer 2025 retail traders turned Opendoor into a meme stock and it rose several times over from under $1.",
+   "difficulty": 3,
+   "day": 60,
+   "date": "2026-12-12",
+   "asset": "Opendoor",
+   "title": "Opendoor (2025)",
+   "tv": "OPEN",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=OPEN"
+  },
+  {
+   "key": "lumber",
+   "answer": "Lumber (2021)",
+   "aliases": [
+    "Lumber",
+    "Wood",
+    "LBS"
+   ],
+   "class": "commodity",
+   "symbol": "LBS=F",
+   "start": "2020-04-01",
+   "end": "2021-08-31",
+   "expect": {
+    "rise": 4,
+    "dd": 0.55
+   },
+   "hintSector": "Building material",
+   "hintClue": "Lockdown DIY and home building.",
+   "story": "Lumber prices rose about 6x as lockdown home projects met closed sawmills, then crashed in summer 2021.",
+   "difficulty": 2,
+   "day": 61,
+   "date": "2026-12-13",
+   "asset": "Lumber",
+   "title": "Lumber (2021)",
+   "tv": "CME:LBS1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CME%3ALBS1%21"
+  },
+  {
+   "key": "mrna",
+   "answer": "Moderna",
+   "aliases": [
+    "MRNA",
+    "Moderna"
+   ],
+   "class": "stock",
+   "symbol": "MRNA",
+   "start": "2020-01-01",
+   "end": "2021-09-30",
+   "expect": {
+    "rise": 20
+   },
+   "hintSector": "Biotech, USA",
+   "hintClue": "Its product went into billions of arms.",
+   "story": "Moderna rose about 25x as its mRNA COVID vaccine went from trial to billions of doses.",
+   "difficulty": 2,
+   "day": 62,
+   "date": "2026-12-14",
+   "asset": "Moderna",
+   "title": "Moderna",
+   "tv": "MRNA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=MRNA"
+  },
+  {
+   "key": "xrp18",
+   "answer": "XRP (2018 peak)",
+   "aliases": [
+    "XRP",
+    "Ripple"
+   ],
+   "class": "crypto",
+   "symbol": "XRP-USD",
+   "start": "2017-11-09",
+   "end": "2018-06-30",
+   "expect": {
+    "rise": 10
+   },
+   "hintSector": "Payments crypto",
+   "hintClue": "Its company pitched it to banks for cross-border payments.",
+   "story": "XRP went from about $0.20 to over $3 in two months around New Year 2018.",
+   "difficulty": 2,
+   "day": 63,
+   "date": "2026-12-15",
+   "asset": "XRP",
+   "title": "XRP (2018 peak)",
+   "tv": "CRYPTO:XRPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AXRPUSD"
+  },
+  {
+   "key": "mstr",
+   "answer": "MicroStrategy (Strategy)",
+   "aliases": [
+    "MSTR",
+    "MicroStrategy",
+    "Strategy"
+   ],
+   "class": "stock",
+   "symbol": "MSTR",
+   "start": "2024-01-01",
+   "end": "2024-11-30",
+   "expect": {
+    "rise": 6
+   },
+   "hintSector": "Software company, USA",
+   "hintClue": "A software company that became a Bitcoin vault.",
+   "story": "The software company that kept buying Bitcoin rose about 7x in 2024.",
+   "difficulty": 2,
+   "day": 64,
+   "date": "2026-12-16",
+   "asset": "MicroStrategy",
+   "title": "MicroStrategy (Strategy)",
+   "tv": "MSTR",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=MSTR"
+  },
+  {
+   "key": "svxy",
+   "answer": "SVXY ('Volmageddon')",
+   "aliases": [
+    "SVXY",
+    "XIV",
+    "Volmageddon"
+   ],
+   "class": "etf",
+   "symbol": "SVXY",
+   "start": "2018-01-01",
+   "end": "2018-03-31",
+   "expect": {
+    "dd": 0.8
+   },
+   "hintSector": "Volatility fund, USA",
+   "hintClue": "A bet that markets stay calm.",
+   "story": "On 5 February 2018 a jump in volatility wiped out funds that bet on calm markets; SVXY lost over 80% in a day.",
+   "difficulty": 3,
+   "day": 65,
+   "date": "2026-12-17",
+   "asset": "SVXY",
+   "title": "SVXY ('Volmageddon')",
+   "tv": "SVXY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SVXY"
+  },
+  {
+   "key": "nflx",
+   "answer": "Netflix (Qwikster)",
+   "aliases": [
+    "NFLX",
+    "Netflix"
+   ],
+   "class": "stock",
+   "symbol": "NFLX",
+   "start": "2011-06-01",
+   "end": "2012-06-30",
+   "expect": {
+    "dd": 0.75
+   },
+   "hintSector": "Streaming, USA",
+   "hintClue": "It tried to split off its DVD business under a silly name.",
+   "story": "A 60% price rise and the short-lived 'Qwikster' plan in 2011 cost Netflix subscribers and about 75% of its stock value.",
+   "difficulty": 2,
+   "day": 66,
+   "date": "2026-12-18",
+   "asset": "Netflix",
+   "title": "Netflix (Qwikster)",
+   "tv": "NFLX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NFLX"
+  },
+  {
+   "key": "bonk",
+   "answer": "Bonk (BONK)",
+   "aliases": [
+    "BONK",
+    "Bonk"
+   ],
+   "class": "crypto",
+   "symbol": "BONK-USD",
+   "start": "2022-12-29",
+   "end": "2023-02-28",
+   "expect": {
+    "rise": 3,
+    "dd": 0.7
+   },
+   "hintSector": "Meme coin on Solana",
+   "hintClue": "Airdropped for free on Christmas Day.",
+   "story": "Airdropped for free on Christmas 2022 to cheer up Solana users after FTX, BONK spiked, then crashed within weeks.",
+   "difficulty": 3,
+   "day": 67,
+   "date": "2026-12-19",
+   "asset": "Bonk (BONK)",
+   "title": "Bonk (BONK)",
+   "tv": "CRYPTO:BONKUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ABONKUSD"
+  },
+  {
+   "key": "otly",
+   "answer": "Oatly (IPO)",
+   "aliases": [
+    "OTLY",
+    "Oatly"
+   ],
+   "class": "stock",
+   "symbol": "OTLY",
+   "start": "2021-05-20",
+   "end": "2023-12-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Oat milk, Sweden",
+   "hintClue": "Its CEO sang in a Super Bowl ad.",
+   "story": "The oat-milk maker's 2021 IPO was followed by a fall of over 90%.",
+   "difficulty": 3,
+   "day": 68,
+   "date": "2026-12-20",
+   "asset": "Oatly",
+   "title": "Oatly (IPO)",
+   "tv": "OTLY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=OTLY"
+  },
+  {
+   "key": "gfc",
+   "answer": "S&P 500 (2008 crisis)",
+   "aliases": [
+    "S&P 500",
+    "SPX",
+    "SP500",
+    "GSPC"
+   ],
+   "class": "index",
+   "symbol": "^GSPC",
+   "start": "2007-06-01",
+   "end": "2009-12-31",
+   "expect": {
+    "dd": 0.5
+   },
+   "hintSector": "Stock index, USA",
+   "hintClue": "Subprime mortgages.",
+   "story": "From October 2007 to March 2009 the S&P 500 lost about 57%.",
+   "difficulty": 1,
+   "day": 69,
+   "date": "2026-12-21",
+   "asset": "S&P 500",
+   "title": "S&P 500 (2008 crisis)",
+   "tv": "SP:SPX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SP%3ASPX"
+  },
+  {
+   "key": "nio",
+   "answer": "NIO (2020)",
+   "aliases": [
+    "NIO"
+   ],
+   "class": "stock",
+   "symbol": "NIO",
+   "start": "2020-03-01",
+   "end": "2021-02-28",
+   "expect": {
+    "rise": 20
+   },
+   "hintSector": "Electric cars, China",
+   "hintClue": "Nearly ran out of cash in 2019.",
+   "story": "China's electric-car maker went from about $2 to over $60 in under a year.",
+   "difficulty": 2,
+   "day": 70,
+   "date": "2026-12-22",
+   "asset": "NIO",
+   "title": "NIO (2020)",
+   "tv": "NIO",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NIO"
+  },
+  {
+   "key": "chz",
+   "answer": "Chiliz (CHZ)",
+   "aliases": [
+    "CHZ",
+    "Chiliz",
+    "Socios"
+   ],
+   "class": "crypto",
+   "symbol": "CHZ-USD",
+   "start": "2021-01-01",
+   "end": "2021-04-30",
+   "expect": {
+    "rise": 20
+   },
+   "hintSector": "Sports fan tokens, Malta",
+   "hintClue": "Football clubs sell 'fan tokens' through it.",
+   "story": "The token behind football fan tokens rose about 40x in early 2021.",
+   "difficulty": 3,
+   "day": 71,
+   "date": "2026-12-23",
+   "asset": "Chiliz (CHZ)",
+   "title": "Chiliz (CHZ)",
+   "tv": "CRYPTO:CHZUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ACHZUSD"
+  },
+  {
+   "key": "plug",
+   "answer": "Plug Power",
+   "aliases": [
+    "PLUG",
+    "Plug Power"
+   ],
+   "class": "stock",
+   "symbol": "PLUG",
+   "start": "2020-01-01",
+   "end": "2023-12-31",
+   "expect": {
+    "rise": 15,
+    "dd": 0.9
+   },
+   "hintSector": "Hydrogen fuel cells, USA",
+   "hintClue": "Hydrogen hype.",
+   "story": "Plug Power rose about 20x in the 2020 clean-energy boom, then fell over 90%.",
+   "difficulty": 3,
+   "day": 72,
+   "date": "2026-12-24",
+   "asset": "Plug Power",
+   "title": "Plug Power",
+   "tv": "PLUG",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=PLUG"
+  },
+  {
+   "key": "rub22",
+   "answer": "USD/RUB (Russian ruble 2022)",
+   "aliases": [
+    "USDRUB",
+    "Ruble",
+    "Rouble",
+    "RUB"
+   ],
+   "class": "currency",
+   "symbol": "USDRUB=X",
+   "start": "2022-01-01",
+   "end": "2022-07-31",
+   "expect": {
+    "rise": 1.6
+   },
+   "hintSector": "Currency, Russia",
+   "hintClue": "Sanctions, then capital controls.",
+   "story": "After the February 2022 invasion and sanctions the ruble collapsed, then capital controls sent it to multi-year highs.",
+   "difficulty": 2,
+   "day": 73,
+   "date": "2026-12-25",
+   "asset": "USD/RUB",
+   "title": "USD/RUB (Russian ruble 2022)",
+   "tv": "FX_IDC:USDRUB",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FX_IDC%3AUSDRUB"
+  },
+  {
+   "key": "qcom",
+   "answer": "Qualcomm (1999)",
+   "aliases": [
+    "QCOM",
+    "Qualcomm"
+   ],
+   "class": "stock",
+   "symbol": "QCOM",
+   "start": "1999-01-01",
+   "end": "2000-12-31",
+   "expect": {
+    "rise": 15
+   },
+   "hintSector": "Mobile chips, USA",
+   "hintClue": "The best-performing S&P 500 stock of 1999.",
+   "story": "Qualcomm rose about 2,600% in 1999, the best year any S&P 500 stock had ever had.",
+   "difficulty": 3,
+   "day": 74,
+   "date": "2026-12-26",
+   "asset": "Qualcomm",
+   "title": "Qualcomm (1999)",
+   "tv": "QCOM",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=QCOM"
+  },
+  {
+   "key": "ftm",
+   "answer": "Fantom (FTM)",
+   "aliases": [
+    "FTM",
+    "Fantom",
+    "Sonic"
+   ],
+   "class": "crypto",
+   "symbol": "FTM-USD",
+   "start": "2021-01-01",
+   "end": "2021-10-31",
+   "expect": {
+    "rise": 50
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "Shares its name with a ghost (spelled differently).",
+   "story": "Fantom rose well over 100x during 2021.",
+   "difficulty": 3,
+   "day": 75,
+   "date": "2026-12-27",
+   "asset": "Fantom (FTM)",
+   "title": "Fantom (FTM)",
+   "tv": "CRYPTO:FTMUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AFTMUSD"
+  },
+  {
+   "key": "pltr",
+   "answer": "Palantir",
+   "aliases": [
+    "PLTR",
+    "Palantir"
+   ],
+   "class": "stock",
+   "symbol": "PLTR",
+   "start": "2023-01-01",
+   "end": "2025-02-28",
+   "expect": {
+    "rise": 12
+   },
+   "hintSector": "Data software, USA",
+   "hintClue": "Named after the seeing-stones in The Lord of the Rings.",
+   "story": "Palantir's AI platform pitch took the stock up about 19x in two years.",
+   "difficulty": 2,
+   "day": 76,
+   "date": "2026-12-28",
+   "asset": "Palantir",
+   "title": "Palantir",
+   "tv": "PLTR",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=PLTR"
+  },
+  {
+   "key": "gala",
+   "answer": "Gala Games (GALA)",
+   "aliases": [
+    "GALA",
+    "Gala"
+   ],
+   "class": "crypto",
+   "symbol": "GALA-USD",
+   "start": "2021-07-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 20,
+    "dd": 0.9
+   },
+   "hintSector": "Blockchain gaming",
+   "hintClue": "A gaming token founded by a Zynga co-founder.",
+   "story": "GALA rose dozens of times over in 2021's blockchain-gaming craze, then gave almost all of it back.",
+   "difficulty": 3,
+   "day": 77,
+   "date": "2026-12-29",
+   "asset": "Gala Games (GALA)",
+   "title": "Gala Games (GALA)",
+   "tv": "CRYPTO:GALAUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AGALAUSD"
+  },
+  {
+   "key": "pton",
+   "answer": "Peloton",
+   "aliases": [
+    "PTON",
+    "Peloton"
+   ],
+   "class": "stock",
+   "symbol": "PTON",
+   "start": "2020-03-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 6,
+    "dd": 0.9
+   },
+   "hintSector": "Home fitness, USA",
+   "hintClue": "Expensive bikes with a screen.",
+   "story": "Lockdown fitness demand sent Peloton up about 8x; then demand vanished and it fell over 90%.",
+   "difficulty": 2,
+   "day": 78,
+   "date": "2026-12-30",
+   "asset": "Peloton",
+   "title": "Peloton",
+   "tv": "PTON",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=PTON"
+  },
+  {
+   "key": "oil08",
+   "answer": "WTI crude oil (2008 spike)",
+   "aliases": [
+    "Oil",
+    "WTI",
+    "Crude oil",
+    "CL"
+   ],
+   "class": "commodity",
+   "symbol": "CL=F",
+   "start": "2007-06-01",
+   "end": "2009-03-31",
+   "expect": {
+    "rise": 2,
+    "dd": 0.7
+   },
+   "hintSector": "Energy commodity",
+   "hintClue": "Hit a record in July 2008, then the financial crisis.",
+   "story": "Oil hit a record of about $145 a barrel in July 2008, then fell over 75% by early 2009.",
+   "difficulty": 2,
+   "day": 79,
+   "date": "2026-12-31",
+   "asset": "WTI crude oil",
+   "title": "WTI crude oil (2008 spike)",
+   "tv": "NYMEX:CL1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NYMEX%3ACL1%21"
+  },
+  {
+   "key": "rivn",
+   "answer": "Rivian (IPO)",
+   "aliases": [
+    "RIVN",
+    "Rivian"
+   ],
+   "class": "stock",
+   "symbol": "RIVN",
+   "start": "2021-11-10",
+   "end": "2022-12-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Electric trucks, USA",
+   "hintClue": "Amazon ordered 100,000 of its delivery vans.",
+   "story": "Rivian's 2021 IPO briefly made it worth more than Ford or GM; then it fell about 90%.",
+   "difficulty": 2,
+   "day": 80,
+   "date": "2027-01-01",
+   "asset": "Rivian",
+   "title": "Rivian (IPO)",
+   "tv": "RIVN",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=RIVN"
+  },
+  {
+   "key": "icp",
+   "answer": "Internet Computer (ICP)",
+   "aliases": [
+    "ICP",
+    "Internet Computer",
+    "Dfinity"
+   ],
+   "class": "crypto",
+   "symbol": "ICP-USD",
+   "start": "2021-05-10",
+   "end": "2021-06-30",
+   "expect": {
+    "dd": 0.8
+   },
+   "hintSector": "Blockchain, Switzerland",
+   "hintClue": "Launched straight onto big exchanges with a top-10 valuation.",
+   "story": "ICP debuted in May 2021 valued among the top cryptos, then lost most of its value within weeks.",
+   "difficulty": 3,
+   "day": 81,
+   "date": "2027-01-02",
+   "asset": "Internet Computer (ICP)",
+   "title": "Internet Computer (ICP)",
+   "tv": "CRYPTO:ICPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AICPUSD"
+  },
+  {
+   "key": "riot",
+   "answer": "Riot Blockchain (2017)",
+   "aliases": [
+    "RIOT",
+    "Riot",
+    "Riot Platforms"
+   ],
+   "class": "stock",
+   "symbol": "RIOT",
+   "start": "2017-09-01",
+   "end": "2018-06-30",
+   "expect": {
+    "rise": 4
+   },
+   "hintSector": "Bitcoin mining, USA",
+   "hintClue": "A biotech that added 'Blockchain' to its name.",
+   "story": "A small biotech renamed itself Riot Blockchain in October 2017 and its stock rose several times over in weeks.",
+   "difficulty": 3,
+   "day": 82,
+   "date": "2027-01-03",
+   "asset": "Riot Blockchain",
+   "title": "Riot Blockchain (2017)",
+   "tv": "RIOT",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=RIOT"
+  },
+  {
+   "key": "ixic",
+   "answer": "Nasdaq Composite (dot-com)",
+   "aliases": [
+    "Nasdaq",
+    "IXIC",
+    "Nasdaq Composite"
+   ],
+   "class": "index",
+   "symbol": "^IXIC",
+   "start": "1995-01-01",
+   "end": "2002-12-31",
+   "expect": {
+    "rise": 5,
+    "dd": 0.75
+   },
+   "hintSector": "Stock index, USA",
+   "hintClue": "Full of tech stocks.",
+   "story": "The tech index rose about 6x to March 2000, then fell almost 80% by October 2002.",
+   "difficulty": 1,
+   "day": 83,
+   "date": "2027-01-04",
+   "asset": "Nasdaq Composite",
+   "title": "Nasdaq Composite (dot-com)",
+   "tv": "NASDAQ:IXIC",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AIXIC"
+  },
+  {
+   "key": "snap",
+   "answer": "Snap (IPO)",
+   "aliases": [
+    "SNAP",
+    "Snap",
+    "Snapchat"
+   ],
+   "class": "stock",
+   "symbol": "SNAP",
+   "start": "2017-03-02",
+   "end": "2018-12-31",
+   "expect": {
+    "dd": 0.75
+   },
+   "hintSector": "Social media, USA",
+   "hintClue": "Its ghost logo is yellow.",
+   "story": "Snapchat's parent went public in March 2017 and lost about 80% from there by the end of 2018.",
+   "difficulty": 2,
+   "day": 84,
+   "date": "2027-01-05",
+   "asset": "Snap",
+   "title": "Snap (IPO)",
+   "tv": "SNAP",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SNAP"
+  },
+  {
+   "key": "ltc17",
+   "answer": "Litecoin (LTC)",
+   "aliases": [
+    "LTC",
+    "Litecoin"
+   ],
+   "class": "crypto",
+   "symbol": "LTC-USD",
+   "start": "2017-11-09",
+   "end": "2018-12-31",
+   "expect": {
+    "rise": 4,
+    "dd": 0.9
+   },
+   "hintSector": "Payments crypto",
+   "hintClue": "'Silver to Bitcoin's gold'.",
+   "story": "Litecoin peaked in December 2017; its creator announced he had sold all his coins near the top.",
+   "difficulty": 3,
+   "day": 85,
+   "date": "2027-01-06",
+   "asset": "Litecoin (LTC)",
+   "title": "Litecoin (LTC)",
+   "tv": "CRYPTO:LTCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ALTCUSD"
+  },
+  {
+   "key": "roo",
+   "answer": "Deliveroo (IPO)",
+   "aliases": [
+    "ROO",
+    "Deliveroo"
+   ],
+   "class": "stock",
+   "symbol": "ROO.L",
+   "start": "2021-03-31",
+   "end": "2022-12-31",
+   "expect": {
+    "dd": 0.7
+   },
+   "hintSector": "Food delivery, UK",
+   "hintClue": "Billed as London's biggest IPO in a decade; called 'Floperoo'.",
+   "story": "Deliveroo fell about 26% on its first day in March 2021 and kept sliding.",
+   "difficulty": 3,
+   "day": 86,
+   "date": "2027-01-07",
+   "asset": "Deliveroo",
+   "title": "Deliveroo (IPO)",
+   "tv": "LSE:ROO",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=LSE%3AROO"
+  },
+  {
+   "key": "mana",
+   "answer": "Decentraland (MANA)",
+   "aliases": [
+    "MANA",
+    "Decentraland"
+   ],
+   "class": "crypto",
+   "symbol": "MANA-USD",
+   "start": "2021-10-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 4,
+    "dd": 0.8
+   },
+   "hintSector": "Metaverse token",
+   "hintClue": "Virtual land plots in it sold for millions.",
+   "story": "MANA multiplied several times over in the weeks after Facebook became Meta in late October 2021.",
+   "difficulty": 3,
+   "day": 87,
+   "date": "2027-01-08",
+   "asset": "Decentraland (MANA)",
+   "title": "Decentraland (MANA)",
+   "tv": "CRYPTO:MANAUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AMANAUSD"
+  },
+  {
+   "key": "sava",
+   "answer": "Cassava Sciences",
+   "aliases": [
+    "SAVA",
+    "Cassava"
+   ],
+   "class": "stock",
+   "symbol": "SAVA",
+   "start": "2020-01-01",
+   "end": "2021-12-31",
+   "expect": {
+    "rise": 40
+   },
+   "hintSector": "Biotech, USA",
+   "hintClue": "An Alzheimer's drug whose research data was questioned.",
+   "story": "Cassava rose about 50x on an Alzheimer's drug in 2020–21 before questions about its research data surfaced.",
+   "difficulty": 3,
+   "day": 88,
+   "date": "2027-01-09",
+   "asset": "Cassava Sciences",
+   "title": "Cassava Sciences",
+   "tv": "SAVA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SAVA"
+  },
+  {
+   "key": "try21",
+   "answer": "USD/TRY (Turkish lira 2021)",
+   "aliases": [
+    "USDTRY",
+    "Turkish lira",
+    "TRY",
+    "Lira",
+    "Türk lirası"
+   ],
+   "class": "currency",
+   "symbol": "USDTRY=X",
+   "start": "2021-09-01",
+   "end": "2022-01-31",
+   "expect": {
+    "rise": 1.6
+   },
+   "hintSector": "Currency, Turkey",
+   "hintClue": "Rates were cut while inflation rose.",
+   "story": "As interest rates were cut in late 2021, the dollar almost doubled against the lira in four months, before a sharp reversal on 20 December.",
+   "difficulty": 2,
+   "day": 89,
+   "date": "2027-01-10",
+   "asset": "USD/TRY",
+   "title": "USD/TRY (Turkish lira 2021)",
+   "tv": "FX:USDTRY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=FX%3AUSDTRY"
+  },
+  {
+   "key": "spce",
+   "answer": "Virgin Galactic",
+   "aliases": [
+    "SPCE",
+    "Virgin Galactic"
+   ],
+   "class": "stock",
+   "symbol": "SPCE",
+   "start": "2019-10-28",
+   "end": "2023-12-31",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Space tourism, USA",
+   "hintClue": "Its founder flew to the edge of space in July 2021.",
+   "story": "The space-tourism SPAC soared in 2021 and then lost over 95% of its value.",
+   "difficulty": 2,
+   "day": 90,
+   "date": "2027-01-11",
+   "asset": "Virgin Galactic",
+   "title": "Virgin Galactic",
+   "tv": "SPCE",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SPCE"
+  },
+  {
+   "key": "matic",
+   "answer": "Polygon (MATIC)",
+   "aliases": [
+    "MATIC",
+    "Polygon",
+    "POL"
+   ],
+   "class": "crypto",
+   "symbol": "MATIC-USD",
+   "start": "2021-01-01",
+   "end": "2021-06-30",
+   "expect": {
+    "rise": 50
+   },
+   "hintSector": "Ethereum scaling network, India",
+   "hintClue": "An Indian-founded network that makes Ethereum cheaper to use.",
+   "story": "Polygon rose more than 100x in the first five months of 2021.",
+   "difficulty": 3,
+   "day": 91,
+   "date": "2027-01-12",
+   "asset": "Polygon (MATIC)",
+   "title": "Polygon (MATIC)",
+   "tv": "CRYPTO:MATICUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AMATICUSD"
+  },
+  {
+   "key": "tlry",
+   "answer": "Tilray (IPO)",
+   "aliases": [
+    "TLRY",
+    "Tilray"
+   ],
+   "class": "stock",
+   "symbol": "TLRY",
+   "start": "2018-07-19",
+   "end": "2019-03-31",
+   "expect": {
+    "rise": 5
+   },
+   "hintSector": "Cannabis, Canada",
+   "hintClue": "Legalisation in Canada was weeks away.",
+   "story": "The cannabis grower rose about 10x in two months after its 2018 IPO, ahead of legalisation in Canada.",
+   "difficulty": 2,
+   "day": 92,
+   "date": "2027-01-13",
+   "asset": "Tilray",
+   "title": "Tilray (IPO)",
+   "tv": "TLRY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TLRY"
+  },
+  {
+   "key": "ttf",
+   "answer": "European natural gas (TTF)",
+   "aliases": [
+    "TTF",
+    "Natural gas",
+    "Dutch TTF",
+    "Gas"
+   ],
+   "class": "commodity",
+   "symbol": "TTF=F",
+   "start": "2021-06-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 8
+   },
+   "hintSector": "Energy commodity, Europe",
+   "hintClue": "A war cut off the main supplier.",
+   "story": "European gas prices rose over 10x as Russian supplies were cut in 2021–22, peaking in August 2022.",
+   "difficulty": 2,
+   "day": 93,
+   "date": "2027-01-14",
+   "asset": "European natural gas (TTF)",
+   "title": "European natural gas (TTF)",
+   "tv": "ICEEUR:TFM1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=ICEEUR%3ATFM1%21"
+  },
+  {
+   "key": "vow",
+   "answer": "Volkswagen (2008 squeeze)",
+   "aliases": [
+    "VOW",
+    "VOW3",
+    "Volkswagen",
+    "VW"
+   ],
+   "class": "stock",
+   "symbol": "VOW.DE",
+   "start": "2008-09-01",
+   "end": "2008-12-31",
+   "expect": {
+    "rise": 3
+   },
+   "hintSector": "Cars, Germany",
+   "hintClue": "Porsche revealed it controlled almost all the shares.",
+   "story": "In October 2008 Porsche revealed a huge stake and short sellers scrambled; Volkswagen briefly became the world's most valuable company.",
+   "difficulty": 2,
+   "day": 94,
+   "date": "2027-01-15",
+   "asset": "Volkswagen",
+   "title": "Volkswagen (2008 squeeze)",
+   "tv": "XETR:VOW",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=XETR%3AVOW"
+  },
+  {
+   "key": "sand",
+   "answer": "The Sandbox (SAND)",
+   "aliases": [
+    "SAND",
+    "Sandbox"
+   ],
+   "class": "crypto",
+   "symbol": "SAND-USD",
+   "start": "2021-09-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 6,
+    "dd": 0.8
+   },
+   "hintSector": "Metaverse token",
+   "hintClue": "A big tech company renamed itself and this coin took off.",
+   "story": "When Facebook renamed itself Meta in October 2021, 'metaverse' tokens like SAND soared.",
+   "difficulty": 3,
+   "day": 95,
+   "date": "2027-01-16",
+   "asset": "The Sandbox (SAND)",
+   "title": "The Sandbox (SAND)",
+   "tv": "CRYPTO:SANDUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASANDUSD"
+  },
+  {
+   "key": "smci",
+   "answer": "Super Micro Computer",
+   "aliases": [
+    "SMCI",
+    "Super Micro",
+    "Supermicro"
+   ],
+   "class": "stock",
+   "symbol": "SMCI",
+   "start": "2023-01-01",
+   "end": "2024-11-30",
+   "expect": {
+    "rise": 10,
+    "dd": 0.8
+   },
+   "hintSector": "AI servers, USA",
+   "hintClue": "Its auditor resigned in 2024.",
+   "story": "AI-server demand took Supermicro up about 14x; then accounting questions and its auditor's resignation cut it by over 80%.",
+   "difficulty": 3,
+   "day": 96,
+   "date": "2027-01-17",
+   "asset": "Super Micro Computer",
+   "title": "Super Micro Computer",
+   "tv": "SMCI",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SMCI"
+  },
+  {
+   "key": "vix20",
+   "answer": "VIX (March 2020)",
+   "aliases": [
+    "VIX",
+    "Fear index"
+   ],
+   "class": "index",
+   "symbol": "^VIX",
+   "start": "2020-01-01",
+   "end": "2020-06-30",
+   "expect": {
+    "rise": 5
+   },
+   "hintSector": "Volatility index, USA",
+   "hintClue": "Nicknamed the 'fear index'.",
+   "story": "The 'fear index' hit a record close of about 83 in March 2020.",
+   "difficulty": 2,
+   "day": 97,
+   "date": "2027-01-18",
+   "asset": "VIX",
+   "title": "VIX (March 2020)",
+   "tv": "TVC:VIX",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TVC%3AVIX"
+  },
+  {
+   "key": "snow",
+   "answer": "Snowflake (IPO)",
+   "aliases": [
+    "SNOW",
+    "Snowflake"
+   ],
+   "class": "stock",
+   "symbol": "SNOW",
+   "start": "2020-09-16",
+   "end": "2022-06-30",
+   "expect": {
+    "dd": 0.65
+   },
+   "hintSector": "Cloud data, USA",
+   "hintClue": "Warren Buffett's company bought into this IPO, a rarity.",
+   "story": "Snowflake's 2020 IPO more than doubled on day one, then the stock lost about 70% from its peak.",
+   "difficulty": 3,
+   "day": 98,
+   "date": "2027-01-19",
+   "asset": "Snowflake",
+   "title": "Snowflake (IPO)",
+   "tv": "SNOW",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SNOW"
+  },
+  {
+   "key": "xrpsec",
+   "answer": "XRP (SEC lawsuit)",
+   "aliases": [
+    "XRP",
+    "Ripple"
+   ],
+   "class": "crypto",
+   "symbol": "XRP-USD",
+   "start": "2020-11-01",
+   "end": "2021-01-31",
+   "expect": {
+    "dd": 0.6
+   },
+   "hintSector": "Payments crypto",
+   "hintClue": "A US regulator called it an unregistered security.",
+   "story": "The US SEC sued Ripple in December 2020, and exchanges delisted XRP; the price fell by about two thirds.",
+   "difficulty": 3,
+   "day": 99,
+   "date": "2027-01-20",
+   "asset": "XRP",
+   "title": "XRP (SEC lawsuit)",
+   "tv": "CRYPTO:XRPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AXRPUSD"
+  },
+  {
+   "key": "tal",
+   "answer": "TAL Education",
+   "aliases": [
+    "TAL",
+    "TAL Education"
+   ],
+   "class": "stock",
+   "symbol": "TAL",
+   "start": "2021-01-01",
+   "end": "2021-12-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "After-school tutoring, China",
+   "hintClue": "A government rule banned for-profit tutoring in core subjects.",
+   "story": "China banned for-profit tutoring in school subjects in July 2021; TAL fell about 95% that year.",
+   "difficulty": 3,
+   "day": 100,
+   "date": "2027-01-21",
+   "asset": "TAL Education",
+   "title": "TAL Education",
+   "tv": "TAL",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=TAL"
+  }
+ ],
+ "reserves": [
+  {
+   "key": "eth21",
+   "answer": "Ethereum (2021 boom)",
+   "aliases": [
+    "ETH",
+    "Ethereum",
+    "Ether"
+   ],
+   "class": "crypto",
+   "symbol": "ETH-USD",
+   "start": "2020-10-01",
+   "end": "2022-06-30",
+   "expect": {
+    "rise": 9,
+    "dd": 0.75
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "NFTs were minted on it.",
+   "story": "Ether rose over 10x to November 2021, then fell about 80% by June 2022.",
+   "difficulty": 2,
+   "asset": "Ethereum",
+   "title": "Ethereum (2021 boom)",
+   "tv": "CRYPTO:ETHUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AETHUSD"
+  },
+  {
+   "key": "lcid",
+   "answer": "Lucid (2021)",
+   "aliases": [
+    "LCID",
+    "Lucid"
+   ],
+   "class": "stock",
+   "symbol": "LCID",
+   "start": "2021-07-26",
+   "end": "2023-12-31",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Electric cars, USA",
+   "hintClue": "Backed by Saudi Arabia's sovereign fund.",
+   "story": "Lucid spiked in November 2021 and then lost around 90%.",
+   "difficulty": 3,
+   "asset": "Lucid",
+   "title": "Lucid (2021)",
+   "tv": "LCID",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=LCID"
+  },
+  {
+   "key": "upst",
+   "answer": "Upstart",
+   "aliases": [
+    "UPST",
+    "Upstart"
+   ],
+   "class": "stock",
+   "symbol": "UPST",
+   "start": "2020-12-16",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 8,
+    "dd": 0.9
+   },
+   "hintSector": "AI lending, USA",
+   "hintClue": "Uses AI to decide who gets a loan.",
+   "story": "Upstart rose about 10x within a year of its IPO, then fell over 95%.",
+   "difficulty": 3,
+   "asset": "Upstart",
+   "title": "Upstart",
+   "tv": "UPST",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=UPST"
+  },
+  {
+   "key": "se",
+   "answer": "Sea Limited",
+   "aliases": [
+    "SE",
+    "Sea",
+    "Shopee",
+    "Garena"
+   ],
+   "class": "stock",
+   "symbol": "SE",
+   "start": "2020-01-01",
+   "end": "2022-12-31",
+   "expect": {
+    "rise": 6,
+    "dd": 0.8
+   },
+   "hintSector": "Games and e-commerce, Singapore",
+   "hintClue": "Owns Shopee and the game Free Fire.",
+   "story": "Sea rose about 9x in the pandemic, then lost over 85%.",
+   "difficulty": 3,
+   "asset": "Sea Limited",
+   "title": "Sea Limited",
+   "tv": "SE",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SE"
+  },
+  {
+   "key": "ng22",
+   "answer": "US natural gas (2022)",
+   "aliases": [
+    "Natural gas",
+    "NG",
+    "Henry Hub"
+   ],
+   "class": "commodity",
+   "symbol": "NG=F",
+   "start": "2021-12-01",
+   "end": "2023-03-31",
+   "expect": {
+    "rise": 2,
+    "dd": 0.7
+   },
+   "hintSector": "Energy commodity, USA",
+   "hintClue": "A war in Europe drove up demand for US gas.",
+   "story": "US gas prices more than doubled to a 14-year high in August 2022, then fell over 70%.",
+   "difficulty": 3,
+   "asset": "US natural gas",
+   "title": "US natural gas (2022)",
+   "tv": "NYMEX:NG1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NYMEX%3ANG1%21"
+  },
+  {
+   "key": "sol24",
+   "answer": "Solana (2023–24 comeback)",
+   "aliases": [
+    "SOL",
+    "Solana"
+   ],
+   "class": "crypto",
+   "symbol": "SOL-USD",
+   "start": "2023-01-01",
+   "end": "2024-03-31",
+   "expect": {
+    "rise": 10
+   },
+   "hintSector": "Smart-contract blockchain",
+   "hintClue": "Written off after FTX.",
+   "story": "Solana rose over 10x from its post-FTX lows.",
+   "difficulty": 3,
+   "asset": "Solana (SOL)",
+   "title": "Solana (2023–24 comeback)",
+   "tv": "CRYPTO:SOLUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASOLUSD"
+  },
+  {
+   "key": "xrp24",
+   "answer": "XRP (2024 election rally)",
+   "aliases": [
+    "XRP",
+    "Ripple"
+   ],
+   "class": "crypto",
+   "symbol": "XRP-USD",
+   "start": "2024-11-01",
+   "end": "2025-01-31",
+   "expect": {
+    "rise": 4
+   },
+   "hintSector": "Payments crypto",
+   "hintClue": "Its long legal fight with a US regulator was ending.",
+   "story": "After the November 2024 US election, XRP rose more than 5x in two months.",
+   "difficulty": 3,
+   "asset": "XRP",
+   "title": "XRP (2024 election rally)",
+   "tv": "CRYPTO:XRPUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3AXRPUSD"
+  },
+  {
+   "key": "doge24",
+   "answer": "Dogecoin (2024 election)",
+   "aliases": [
+    "DOGE",
+    "Dogecoin"
+   ],
+   "class": "crypto",
+   "symbol": "DOGE-USD",
+   "start": "2024-10-01",
+   "end": "2024-12-31",
+   "expect": {
+    "rise": 3
+   },
+   "hintSector": "Meme coin",
+   "hintClue": "A government department was named after it.",
+   "story": "Dogecoin more than tripled after the 2024 US election, helped by a new 'Department of Government Efficiency'.",
+   "difficulty": 3,
+   "asset": "Dogecoin (DOGE)",
+   "title": "Dogecoin (2024 election)",
+   "tv": "CRYPTO:DOGEUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ADOGEUSD"
+  },
+  {
+   "key": "gold20",
+   "answer": "Gold (2020 record)",
+   "aliases": [
+    "Gold",
+    "GC",
+    "XAU"
+   ],
+   "class": "commodity",
+   "symbol": "GC=F",
+   "start": "2018-08-01",
+   "end": "2020-08-31",
+   "expect": {
+    "rise": 1.6
+   },
+   "hintSector": "Precious metal",
+   "hintClue": "Safe haven.",
+   "story": "Gold passed $2,000 an ounce for the first time in August 2020.",
+   "difficulty": 3,
+   "asset": "Gold",
+   "title": "Gold (2020 record)",
+   "tv": "COMEX:GC1!",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=COMEX%3AGC1%21"
+  },
+  {
+   "key": "nkla",
+   "answer": "Nikola",
+   "aliases": [
+    "NKLA",
+    "Nikola"
+   ],
+   "class": "stock",
+   "symbol": "NKLA",
+   "start": "2020-05-01",
+   "end": "2021-12-31",
+   "expect": {
+    "rise": 3,
+    "dd": 0.75
+   },
+   "hintSector": "Hydrogen trucks, USA",
+   "hintClue": "A promo video showed a truck rolling downhill.",
+   "story": "Nikola spiked in June 2020, then a short-seller report showed a promo truck had been rolled downhill.",
+   "difficulty": 2,
+   "asset": "Nikola",
+   "title": "Nikola",
+   "tv": "NKLA",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=NKLA"
+  },
+  {
+   "key": "sivb",
+   "answer": "SVB Financial",
+   "aliases": [
+    "SIVB",
+    "SVB",
+    "Silicon Valley Bank"
+   ],
+   "class": "stock",
+   "symbol": "SIVBQ",
+   "start": "2021-01-01",
+   "end": "2023-03-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Banking, USA",
+   "hintClue": "The start-ups' bank.",
+   "story": "Silicon Valley Bank failed in a 48-hour bank run in March 2023.",
+   "difficulty": 2,
+   "asset": "SVB Financial",
+   "title": "SVB Financial",
+   "tv": "SIVBQ",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=SIVBQ"
+  },
+  {
+   "key": "cs",
+   "answer": "Credit Suisse",
+   "aliases": [
+    "CS",
+    "Credit Suisse"
+   ],
+   "class": "stock",
+   "symbol": "CS",
+   "start": "2021-01-01",
+   "end": "2023-06-09",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Banking, Switzerland",
+   "hintClue": "Rescued by its biggest rival in 2023.",
+   "story": "Credit Suisse was sold to UBS in an emergency deal in March 2023.",
+   "difficulty": 2,
+   "asset": "Credit Suisse",
+   "title": "Credit Suisse",
+   "tv": "CS",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CS"
+  },
+  {
+   "key": "wdi",
+   "answer": "Wirecard",
+   "aliases": [
+    "WDI",
+    "Wirecard"
+   ],
+   "class": "stock",
+   "symbol": "WDI.DE",
+   "start": "2020-01-01",
+   "end": "2020-08-31",
+   "expect": {
+    "dd": 0.95
+   },
+   "hintSector": "Payments, Germany",
+   "hintClue": "1.9 billion euros turned out not to exist.",
+   "story": "Wirecard admitted in June 2020 that 1.9 billion euros probably didn't exist and collapsed.",
+   "difficulty": 2,
+   "asset": "Wirecard",
+   "title": "Wirecard",
+   "tv": "XETR:WDI",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=XETR%3AWDI"
+  },
+  {
+   "key": "bbby",
+   "answer": "Bed Bath & Beyond",
+   "aliases": [
+    "BBBY",
+    "Bed Bath"
+   ],
+   "class": "stock",
+   "symbol": "BBBYQ",
+   "start": "2022-07-01",
+   "end": "2023-05-31",
+   "expect": {
+    "rise": 3,
+    "dd": 0.95
+   },
+   "hintSector": "Home goods retailer, USA",
+   "hintClue": "A meme-stock squeeze months before bankruptcy.",
+   "story": "Bed Bath & Beyond spiked in a 2022 meme rally, then filed for bankruptcy in April 2023.",
+   "difficulty": 2,
+   "asset": "Bed Bath & Beyond",
+   "title": "Bed Bath & Beyond",
+   "tv": "BBBYQ",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=BBBYQ"
+  },
+  {
+   "key": "bcc",
+   "answer": "BitConnect",
+   "aliases": [
+    "BCC",
+    "BitConnect"
+   ],
+   "class": "crypto",
+   "symbol": "BCC-USD",
+   "start": "2017-06-01",
+   "end": "2018-02-28",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Crypto lending scheme",
+   "hintClue": "'Wassa wassa wassup!'",
+   "story": "The lending platform shut down in January 2018 and its token collapsed; US authorities later charged it as a Ponzi scheme.",
+   "difficulty": 2,
+   "asset": "BitConnect",
+   "title": "BitConnect",
+   "tv": "CRYPTO:BCCUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ABCCUSD"
+  },
+  {
+   "key": "sfm",
+   "answer": "SafeMoon",
+   "aliases": [
+    "SAFEMOON",
+    "SafeMoon"
+   ],
+   "class": "crypto",
+   "symbol": "SAFEMOON-USD",
+   "start": "2021-03-15",
+   "end": "2021-12-31",
+   "expect": {
+    "rise": 10,
+    "dd": 0.8
+   },
+   "hintSector": "Meme token",
+   "hintClue": "Charged a 10% fee to sell.",
+   "story": "SafeMoon soared in spring 2021; its executives were later charged with fraud.",
+   "difficulty": 3,
+   "asset": "SafeMoon",
+   "title": "SafeMoon",
+   "tv": "CRYPTO:SAFEMOONUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ASAFEMOONUSD"
+  },
+  {
+   "key": "hertz",
+   "answer": "Hertz (2020 bankruptcy rally)",
+   "aliases": [
+    "HTZ",
+    "Hertz"
+   ],
+   "class": "stock",
+   "symbol": "HTZGQ",
+   "start": "2020-05-01",
+   "end": "2020-07-31",
+   "expect": {
+    "rise": 5
+   },
+   "hintSector": "Car rental, USA",
+   "hintClue": "Filed for bankruptcy, then went up.",
+   "story": "Days after filing for bankruptcy in May 2020, Hertz stock rose about 10x on retail buying.",
+   "difficulty": 2,
+   "asset": "Hertz",
+   "title": "Hertz (2020 bankruptcy rally)",
+   "tv": "HTZGQ",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=HTZGQ"
+  },
+  {
+   "key": "evg",
+   "answer": "Evergrande",
+   "aliases": [
+    "3333",
+    "Evergrande"
+   ],
+   "class": "stock",
+   "symbol": "3333.HK",
+   "start": "2020-01-01",
+   "end": "2022-03-18",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Property developer, China",
+   "hintClue": "The world's most indebted property developer.",
+   "story": "The Chinese developer with over $300 billion of debt defaulted in 2021.",
+   "difficulty": 3,
+   "asset": "Evergrande",
+   "title": "Evergrande",
+   "tv": "HKEX:3333",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=HKEX%3A3333"
+  },
+  {
+   "key": "didi",
+   "answer": "Didi (IPO)",
+   "aliases": [
+    "DIDI",
+    "Didi"
+   ],
+   "class": "stock",
+   "symbol": "DIDIY",
+   "start": "2021-06-30",
+   "end": "2022-06-30",
+   "expect": {
+    "dd": 0.85
+   },
+   "hintSector": "Ride-hailing, China",
+   "hintClue": "Regulators pounced days after its New York IPO.",
+   "story": "Days after its June 2021 New York IPO, China ordered Didi's app removed from app stores.",
+   "difficulty": 3,
+   "asset": "Didi",
+   "title": "Didi (IPO)",
+   "tv": "DIDIY",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=DIDIY"
+  },
+  {
+   "key": "cel",
+   "answer": "Celsius (CEL)",
+   "aliases": [
+    "CEL",
+    "Celsius"
+   ],
+   "class": "crypto",
+   "symbol": "CEL-USD",
+   "start": "2021-01-01",
+   "end": "2022-07-31",
+   "expect": {
+    "dd": 0.9
+   },
+   "hintSector": "Crypto lender token",
+   "hintClue": "Its CEO said 'banks are not your friends'.",
+   "story": "The crypto lender froze withdrawals in June 2022 and filed for bankruptcy a month later.",
+   "difficulty": 3,
+   "asset": "Celsius (CEL)",
+   "title": "Celsius (CEL)",
+   "tv": "CRYPTO:CELUSD",
+   "tvUrl": "https://www.tradingview.com/chart/?symbol=CRYPTO%3ACELUSD"
+  }
+ ]
+}

@@ -1,0 +1,1969 @@
+[
+{
+"name": "Aave",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Adani Enterprises",
+"aliases": [
+"ADANIENT",
+"Adani"
+],
+"class": "stock"
+},
+{
+"name": "Adani Green",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Adobe",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Affirm",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "AIG",
+"aliases": [
+"AIG"
+],
+"class": "stock"
+},
+{
+"name": "Airbnb",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Airbus",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Algorand",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Alibaba",
+"aliases": [
+"BABA",
+"Alibaba"
+],
+"class": "stock"
+},
+{
+"name": "Allbirds",
+"aliases": [
+"BIRD",
+"Allbirds"
+],
+"class": "stock"
+},
+{
+"name": "Alphabet (Google)",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Aluminium",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Amazon",
+"aliases": [
+"AMZN",
+"Amazon"
+],
+"class": "stock"
+},
+{
+"name": "AMC Entertainment",
+"aliases": [
+"AMC"
+],
+"class": "stock"
+},
+{
+"name": "AMD",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "AOL",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "ApeCoin",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Apple",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Aptos",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Arbitrum",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "ARK Innovation ETF",
+"aliases": [
+"ARKK",
+"ARK"
+],
+"class": "etf"
+},
+{
+"name": "Arm Holdings",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Aselsan",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "ASML",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "AstraZeneca",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "ASX 200",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "AUD/USD",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "Avalanche (AVAX)",
+"aliases": [
+"AVAX",
+"Avalanche"
+],
+"class": "crypto"
+},
+{
+"name": "Axie Infinity (AXS)",
+"aliases": [
+"AXS",
+"Axie"
+],
+"class": "crypto"
+},
+{
+"name": "Baidu",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Bank of America",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Bear Stearns",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Bed Bath & Beyond",
+"aliases": [
+"BBBY",
+"Bed Bath"
+],
+"class": "stock"
+},
+{
+"name": "Berkshire Hathaway",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Beyond Meat",
+"aliases": [
+"BYND",
+"Beyond Meat"
+],
+"class": "stock"
+},
+{
+"name": "BioNTech",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "BIST 100",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Bitcoin",
+"aliases": [
+"BTC",
+"Bitcoin"
+],
+"class": "crypto"
+},
+{
+"name": "Bitcoin Cash",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "BitConnect",
+"aliases": [
+"BCC",
+"BitConnect"
+],
+"class": "crypto"
+},
+{
+"name": "BlackBerry",
+"aliases": [
+"BB",
+"BlackBerry"
+],
+"class": "stock"
+},
+{
+"name": "Block (Square)",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Blockbuster",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "BMW",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "BNB",
+"aliases": [
+"BNB",
+"Binance Coin"
+],
+"class": "crypto"
+},
+{
+"name": "Boeing",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Bonk (BONK)",
+"aliases": [
+"BONK",
+"Bonk"
+],
+"class": "crypto"
+},
+{
+"name": "Bovespa",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Brent crude oil",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Broadcom",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "BYD",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "CAC 40",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Cardano (ADA)",
+"aliases": [
+"ADA",
+"Cardano"
+],
+"class": "crypto"
+},
+{
+"name": "Carvana",
+"aliases": [
+"CVNA",
+"Carvana"
+],
+"class": "stock"
+},
+{
+"name": "Cassava Sciences",
+"aliases": [
+"SAVA",
+"Cassava"
+],
+"class": "stock"
+},
+{
+"name": "Celsius (CEL)",
+"aliases": [
+"CEL",
+"Celsius"
+],
+"class": "crypto"
+},
+{
+"name": "Chainlink",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Chevron",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Chewy",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Chiliz (CHZ)",
+"aliases": [
+"CHZ",
+"Chiliz",
+"Socios"
+],
+"class": "crypto"
+},
+{
+"name": "Chipotle",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Circle",
+"aliases": [
+"CRCL",
+"Circle"
+],
+"class": "stock"
+},
+{
+"name": "Cisco",
+"aliases": [
+"CSCO",
+"Cisco"
+],
+"class": "stock"
+},
+{
+"name": "Citigroup",
+"aliases": [
+"C",
+"Citigroup",
+"Citi"
+],
+"class": "stock"
+},
+{
+"name": "Clover Health",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Coca-Cola",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Cocoa",
+"aliases": [
+"Cocoa",
+"CC"
+],
+"class": "commodity"
+},
+{
+"name": "Coinbase",
+"aliases": [
+"COIN",
+"Coinbase"
+],
+"class": "stock"
+},
+{
+"name": "Copper",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "CoreWeave",
+"aliases": [
+"CRWV",
+"CoreWeave"
+],
+"class": "stock"
+},
+{
+"name": "Corn",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Cosmos",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Costco",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Cotton",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Countrywide",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Credit Suisse",
+"aliases": [
+"CS",
+"Credit Suisse"
+],
+"class": "stock"
+},
+{
+"name": "CrowdStrike",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "DAX",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Decentraland (MANA)",
+"aliases": [
+"MANA",
+"Decentraland"
+],
+"class": "crypto"
+},
+{
+"name": "Deliveroo",
+"aliases": [
+"ROO",
+"Deliveroo"
+],
+"class": "stock"
+},
+{
+"name": "Dell",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Deutsche Bank",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Didi",
+"aliases": [
+"DIDI",
+"Didi"
+],
+"class": "stock"
+},
+{
+"name": "Disney",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "DocuSign",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Dogecoin (DOGE)",
+"aliases": [
+"DOGE",
+"Dogecoin"
+],
+"class": "crypto"
+},
+{
+"name": "dogwifhat (WIF)",
+"aliases": [
+"WIF",
+"dogwifhat"
+],
+"class": "crypto"
+},
+{
+"name": "DoorDash",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Dow Jones Industrial Average",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "DXY (dollar index)",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "eBay",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Eggs",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Eli Lilly",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Enron",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "EOS",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Ethereum",
+"aliases": [
+"ETH",
+"Ethereum",
+"Ether"
+],
+"class": "crypto"
+},
+{
+"name": "Ethereum Classic",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Etsy",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "EUR/CHF",
+"aliases": [
+"EURCHF",
+"Swiss franc",
+"CHF",
+"Franc"
+],
+"class": "currency"
+},
+{
+"name": "EUR/GBP",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "EUR/TRY",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "EUR/USD",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "Euro Stoxx 50",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "European natural gas (TTF)",
+"aliases": [
+"TTF",
+"Natural gas",
+"Dutch TTF",
+"Gas"
+],
+"class": "commodity"
+},
+{
+"name": "Evergrande",
+"aliases": [
+"3333",
+"Evergrande"
+],
+"class": "stock"
+},
+{
+"name": "Exxon Mobil",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Facebook",
+"aliases": [
+"META",
+"FB",
+"Facebook",
+"Meta"
+],
+"class": "stock"
+},
+{
+"name": "Fannie Mae",
+"aliases": [
+"FNMA",
+"Fannie Mae"
+],
+"class": "stock"
+},
+{
+"name": "Fantom (FTM)",
+"aliases": [
+"FTM",
+"Fantom",
+"Sonic"
+],
+"class": "crypto"
+},
+{
+"name": "Ferrari",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Fetch.ai",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Filecoin",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "First Republic",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Fisker",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Floki",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Ford",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "FTSE 100",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "FTX Token (FTT)",
+"aliases": [
+"FTT",
+"FTX"
+],
+"class": "crypto"
+},
+{
+"name": "Gala Games (GALA)",
+"aliases": [
+"GALA",
+"Gala"
+],
+"class": "crypto"
+},
+{
+"name": "GameStop",
+"aliases": [
+"GME",
+"GameStop"
+],
+"class": "stock"
+},
+{
+"name": "Garanti BBVA",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "GBP/USD",
+"aliases": [
+"GBPUSD",
+"Pound",
+"Sterling",
+"Cable",
+"GBP"
+],
+"class": "currency"
+},
+{
+"name": "General Electric",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "General Motors",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Gold",
+"aliases": [
+"Gold",
+"GC",
+"XAU"
+],
+"class": "commodity"
+},
+{
+"name": "Goldman Sachs",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "GoPro",
+"aliases": [
+"GPRO",
+"GoPro"
+],
+"class": "stock"
+},
+{
+"name": "Hang Seng",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Hawk Tuah (HAWK)",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Hedera",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Hermès",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Hertz",
+"aliases": [
+"HTZ",
+"Hertz"
+],
+"class": "stock"
+},
+{
+"name": "Hims & Hers",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "HP",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "HSBC",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "IBM",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Infosys",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Intel",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Internet Computer (ICP)",
+"aliases": [
+"ICP",
+"Internet Computer",
+"Dfinity"
+],
+"class": "crypto"
+},
+{
+"name": "Invesco QQQ",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Iron ore",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "JD.com",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Johnson & Johnson",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "JPMorgan Chase",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Kodak",
+"aliases": [
+"KODK",
+"Kodak",
+"Eastman Kodak"
+],
+"class": "stock"
+},
+{
+"name": "KOSPI",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Koç Holding",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Lean hogs",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Lehman Brothers",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Li Auto",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Litecoin (LTC)",
+"aliases": [
+"LTC",
+"Litecoin"
+],
+"class": "crypto"
+},
+{
+"name": "Lithium",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Live cattle",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Lordstown Motors",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Lucid",
+"aliases": [
+"LCID",
+"Lucid"
+],
+"class": "stock"
+},
+{
+"name": "Luckin Coffee",
+"aliases": [
+"LKNCY",
+"LK",
+"Luckin"
+],
+"class": "stock"
+},
+{
+"name": "Lumber",
+"aliases": [
+"Lumber",
+"Wood",
+"LBS"
+],
+"class": "commodity"
+},
+{
+"name": "LVMH",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Lyft",
+"aliases": [
+"LYFT",
+"Lyft"
+],
+"class": "stock"
+},
+{
+"name": "Marathon Digital",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Mastercard",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "McDonald's",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Melania Meme (MELANIA)",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "MercadoLibre",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "MERVAL",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Meta Platforms",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Micron",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Microsoft",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "MicroStrategy",
+"aliases": [
+"MSTR",
+"MicroStrategy",
+"Strategy"
+],
+"class": "stock"
+},
+{
+"name": "Moderna",
+"aliases": [
+"MRNA",
+"Moderna"
+],
+"class": "stock"
+},
+{
+"name": "Monero",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Morgan Stanley",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Motorola",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Nasdaq 100",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Nasdaq Composite",
+"aliases": [
+"Nasdaq",
+"IXIC",
+"Nasdaq Composite"
+],
+"class": "index"
+},
+{
+"name": "Natural gas (US)",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Near Protocol",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Nestlé",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Netflix",
+"aliases": [
+"NFLX",
+"Netflix"
+],
+"class": "stock"
+},
+{
+"name": "Nickel",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Nifty 50",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Nike",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Nikkei 225",
+"aliases": [
+"Nikkei",
+"Nikkei 225",
+"N225"
+],
+"class": "index"
+},
+{
+"name": "Nikola",
+"aliases": [
+"NKLA",
+"Nikola"
+],
+"class": "stock"
+},
+{
+"name": "Nintendo",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "NIO",
+"aliases": [
+"NIO"
+],
+"class": "stock"
+},
+{
+"name": "Nokia",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Novavax",
+"aliases": [
+"NVAX",
+"Novavax"
+],
+"class": "stock"
+},
+{
+"name": "Novo Nordisk",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Nvidia",
+"aliases": [
+"NVDA",
+"Nvidia"
+],
+"class": "stock"
+},
+{
+"name": "NZD/USD",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "Oatly",
+"aliases": [
+"OTLY",
+"Oatly"
+],
+"class": "stock"
+},
+{
+"name": "Oats",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Ocado",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Official Trump (TRUMP)",
+"aliases": [
+"TRUMP",
+"$TRUMP",
+"Official Trump"
+],
+"class": "crypto"
+},
+{
+"name": "Opendoor",
+"aliases": [
+"OPEN",
+"Opendoor"
+],
+"class": "stock"
+},
+{
+"name": "Optimism",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Oracle",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Orange juice",
+"aliases": [
+"Orange juice",
+"OJ",
+"FCOJ"
+],
+"class": "commodity"
+},
+{
+"name": "Palantir",
+"aliases": [
+"PLTR",
+"Palantir"
+],
+"class": "stock"
+},
+{
+"name": "Palladium",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "PayPal",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Peloton",
+"aliases": [
+"PTON",
+"Peloton"
+],
+"class": "stock"
+},
+{
+"name": "Pepe (PEPE)",
+"aliases": [
+"PEPE",
+"Pepe"
+],
+"class": "crypto"
+},
+{
+"name": "Pfizer",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Pinduoduo (PDD)",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Pinterest",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Platinum",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Plug Power",
+"aliases": [
+"PLUG",
+"Plug Power"
+],
+"class": "stock"
+},
+{
+"name": "Polkadot",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Polygon (MATIC)",
+"aliases": [
+"MATIC",
+"Polygon",
+"POL"
+],
+"class": "crypto"
+},
+{
+"name": "Porsche",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Qualcomm",
+"aliases": [
+"QCOM",
+"Qualcomm"
+],
+"class": "stock"
+},
+{
+"name": "Reddit",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Redfin",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Reliance Industries",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Render",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Rice",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Riot Blockchain",
+"aliases": [
+"RIOT",
+"Riot",
+"Riot Platforms"
+],
+"class": "stock"
+},
+{
+"name": "Rivian",
+"aliases": [
+"RIVN",
+"Rivian"
+],
+"class": "stock"
+},
+{
+"name": "Robinhood",
+"aliases": [
+"HOOD",
+"Robinhood"
+],
+"class": "stock"
+},
+{
+"name": "Roblox",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Rolls-Royce",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Rumble",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Russell 2000",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "S&P 500",
+"aliases": [
+"S&P 500",
+"SPX",
+"SP500",
+"GSPC"
+],
+"class": "index"
+},
+{
+"name": "SafeMoon",
+"aliases": [
+"SAFEMOON",
+"SafeMoon"
+],
+"class": "crypto"
+},
+{
+"name": "Salesforce",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Samsung",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "SAP",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Sea Limited",
+"aliases": [
+"SE",
+"Sea",
+"Shopee",
+"Garena"
+],
+"class": "stock"
+},
+{
+"name": "Sensex",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Shanghai Composite",
+"aliases": [
+"SSE",
+"Shanghai Composite",
+"000001.SS"
+],
+"class": "index"
+},
+{
+"name": "Shell",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Shenzhen Component",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Shiba Inu (SHIB)",
+"aliases": [
+"SHIB",
+"Shiba Inu"
+],
+"class": "crypto"
+},
+{
+"name": "Shopify",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Siemens",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Silver",
+"aliases": [
+"Silver",
+"SI",
+"XAG"
+],
+"class": "commodity"
+},
+{
+"name": "Snap",
+"aliases": [
+"SNAP",
+"Snap",
+"Snapchat"
+],
+"class": "stock"
+},
+{
+"name": "Snowflake",
+"aliases": [
+"SNOW",
+"Snowflake"
+],
+"class": "stock"
+},
+{
+"name": "SoFi",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "SoftBank",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Solana (SOL)",
+"aliases": [
+"SOL",
+"Solana"
+],
+"class": "crypto"
+},
+{
+"name": "Sony",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Soybeans",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "SPDR S&P 500 ETF",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Spotify",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Squid Game token (SQUID)",
+"aliases": [
+"SQUID",
+"Squid Game"
+],
+"class": "crypto"
+},
+{
+"name": "Starbucks",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Stellar",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Sugar",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Super Micro Computer",
+"aliases": [
+"SMCI",
+"Super Micro",
+"Supermicro"
+],
+"class": "stock"
+},
+{
+"name": "SVB Financial",
+"aliases": [
+"SIVB",
+"SVB",
+"Silicon Valley Bank"
+],
+"class": "stock"
+},
+{
+"name": "SVXY",
+"aliases": [
+"SVXY",
+"XIV",
+"Volmageddon"
+],
+"class": "etf"
+},
+{
+"name": "TAL Education",
+"aliases": [
+"TAL",
+"TAL Education"
+],
+"class": "stock"
+},
+{
+"name": "Target",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Tata Motors",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Teladoc",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Tencent",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Terra (LUNA)",
+"aliases": [
+"LUNA",
+"LUNC",
+"Terra Classic",
+"Terra Luna"
+],
+"class": "crypto"
+},
+{
+"name": "TerraUSD (UST)",
+"aliases": [
+"UST",
+"TerraUSD",
+"USTC"
+],
+"class": "crypto"
+},
+{
+"name": "Tesla",
+"aliases": [
+"TSLA",
+"Tesla"
+],
+"class": "stock"
+},
+{
+"name": "Tether (USDT)",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Tezos",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "The Sandbox (SAND)",
+"aliases": [
+"SAND",
+"Sandbox"
+],
+"class": "crypto"
+},
+{
+"name": "Tilray",
+"aliases": [
+"TLRY",
+"Tilray"
+],
+"class": "stock"
+},
+{
+"name": "Toncoin",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Toyota",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Tron",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Trump Media & Technology (DJT)",
+"aliases": [
+"DJT",
+"Trump Media",
+"Truth Social"
+],
+"class": "stock"
+},
+{
+"name": "TSMC",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "TSX",
+"aliases": [],
+"class": "index"
+},
+{
+"name": "Turkish Airlines",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Twitter",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Uber",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "UBS",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Unilever",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Uniswap",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Unity Software",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Upstart",
+"aliases": [
+"UPST",
+"Upstart"
+],
+"class": "stock"
+},
+{
+"name": "Uranium",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "US natural gas",
+"aliases": [
+"Natural gas",
+"NG",
+"Henry Hub"
+],
+"class": "commodity"
+},
+{
+"name": "USD Coin (USDC)",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "USD/ARS",
+"aliases": [
+"USDARS",
+"Argentine peso",
+"Peso",
+"ARS"
+],
+"class": "currency"
+},
+{
+"name": "USD/BRL",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/CAD",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/CHF",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/CNY",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/EGP",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/INR",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/JPY",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/KRW",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/MXN",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/NGN",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "USD/RUB",
+"aliases": [
+"USDRUB",
+"Ruble",
+"Rouble",
+"RUB"
+],
+"class": "currency"
+},
+{
+"name": "USD/TRY",
+"aliases": [
+"USDTRY",
+"Turkish lira",
+"TRY",
+"Lira",
+"Türk lirası"
+],
+"class": "currency"
+},
+{
+"name": "USD/ZAR",
+"aliases": [],
+"class": "currency"
+},
+{
+"name": "VeChain",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "Virgin Galactic",
+"aliases": [
+"SPCE",
+"Virgin Galactic"
+],
+"class": "stock"
+},
+{
+"name": "Visa",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "VIX",
+"aliases": [
+"VIX",
+"Fear index"
+],
+"class": "index"
+},
+{
+"name": "Volkswagen",
+"aliases": [
+"VOW",
+"VOW3",
+"Volkswagen",
+"VW"
+],
+"class": "stock"
+},
+{
+"name": "Walmart",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Wayfair",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Wells Fargo",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "WeWork",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Wheat",
+"aliases": [],
+"class": "commodity"
+},
+{
+"name": "Wirecard",
+"aliases": [
+"WDI",
+"Wirecard"
+],
+"class": "stock"
+},
+{
+"name": "Workhorse",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Worldcoin",
+"aliases": [],
+"class": "crypto"
+},
+{
+"name": "WTI crude oil",
+"aliases": [
+"Oil",
+"WTI",
+"Crude oil",
+"CL"
+],
+"class": "commodity"
+},
+{
+"name": "Xiaomi",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "XPeng",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "XRP",
+"aliases": [
+"XRP",
+"Ripple"
+],
+"class": "crypto"
+},
+{
+"name": "Yahoo",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Zillow",
+"aliases": [],
+"class": "stock"
+},
+{
+"name": "Zoom",
+"aliases": [
+"ZM",
+"Zoom"
+],
+"class": "stock"
+}
+]

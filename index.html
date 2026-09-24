@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Wick — Name the chart in 5 guesses</title>
+  <meta name="description" content="Wick is a free daily game. Everyone gets the same unlabelled chart of a famous market moment and 5 guesses to name the asset." />
+  <link rel="canonical" href="https://example.com/wick/" />
+  <meta name="theme-color" content="#0B0D10" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)" />
+  <meta property="og:title" content="Wick — Name the chart" />
+  <meta property="og:description" content="Every chart is a famous market moment. 5 guesses. New chart daily at 00:00 UTC." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/wick/og.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.svg" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <!-- CSP via meta (GitHub Pages cannot set headers). No inline scripts/styles. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; img-src 'self' data:; style-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" />
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <noscript><p style="padding:24px;font-family:system-ui">Wick needs JavaScript to play.</p></noscript>
+  <!-- Cloudflare Web Analytics (cookieless page views). The build step injects
+       the token from the CF_BEACON_TOKEN repository variable, and leaves the
+       whole tag out when the variable is empty. -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "%%CF_BEACON_TOKEN%%"}'></script>
+</body>
+</html>
