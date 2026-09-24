@@ -18,7 +18,7 @@ jobs:
     steps:
       # Pinned to SHAs (security gate M8). Auditor: verify with `git ls-remote` before launch; Dependabot keeps them fresh.
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - uses: actions/setup-node@1a4442c3299be6e2c9def7d42c53912b09a7d0d7 # v4.1.0
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with: { node-version: 22 }
       - run: npm install --no-audit --no-fund
       - run: npm run test:data
@@ -30,6 +30,6 @@ jobs:
           git add public/puzzles.json data/build-report.md
           git diff --cached --quiet || git commit -m "chore(data): rebuild puzzles [skip ci]"
           git push
-      - uses: actions/upload-artifact@65c4c4a6ddee5b05f233b4462d9b99bfb1d70a24 # v4.6.0
+      - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4.6.0
         if: always()
         with: { name: build-report, path: data/build-report.md }
