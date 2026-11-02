@@ -101,7 +101,8 @@
 | 91 | 2027-01-12 | Polygon (MATIC) | MATIC-USD | FAIL | fetch/parse error: No data found, symbol may be delisted |
 | 91 | 2027-01-12 | ↳ Sea Limited | SE | SWAPPED IN | rise 9.7x, dd 89%, cliff 18%, 756 days |
 | 92 | 2027-01-13 | Tilray (IPO) | TLRY | PASS | rise 9.7x, dd 70%, cliff 30%, 175 days |
-| 93 | 2027-01-14 | European natural gas (TTF) | TTF=F | PASS | rise 13.2x, dd 78%, cliff 30%, 401 days |
+| 93 | 2027-01-14 | European natural gas (TTF) | TTF=F | FAIL | fetch/parse error: too few points (0) |
+| 93 | 2027-01-14 | ↳ Gold (2020 record) | GC=F | SWAPPED IN | rise 1.8x, dd 12%, cliff 5%, 524 days |
 | 94 | 2027-01-15 | Volkswagen (2008 squeeze) | VOW.DE | FAIL | rise 2.64x < 3x |
 | 94 | 2027-01-15 | ↳ Didi (IPO) | DIDIY | SWAPPED IN | rise 2.4x, dd 91%, cliff 44%, 252 days |
 | 95 | 2027-01-16 | The Sandbox (SAND) | SAND-USD | PASS | rise 14.1x, dd 91%, cliff 25%, 303 days |
